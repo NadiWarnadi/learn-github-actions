@@ -1,0 +1,2 @@
+# sinergi
+ini buat ksi
