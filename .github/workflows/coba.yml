@@ -16,7 +16,7 @@ jobs:
           php-version: '8.2'
 
       - name: Initialize Dummy Project
-        run: composer init --name="test/app" --require="warnadi/db-stressmit:^1.0" -n
+        run: composer init --name="test/app" --require="warnadi/db-stressmit:^0.1.0" -n
 
       - name: Install Package from Packagist
         run: composer install --no-interaction --prefer-dist
