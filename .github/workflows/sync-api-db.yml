@@ -3,7 +3,7 @@ name: "🔬 Fetch Cell API and Save to SQLite"
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch: # Supaya bisa kita klik tombol "Run Workflow" kapan saja secara manual
+  workflow_dispatch:
 
 jobs:
   fetch-and-store:
@@ -14,14 +14,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # 2. Siapkan Python versi terbaru
+      # 2. Siapkan Python versi terbaru (Hapus baris cache: 'pip' untuk mengatasi eror)
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip' # Mengaktifkan caching otomatis untuk pip dependencies
 
-      # 3. Pasang dependensi HTTP Request (menggunakan perintah terminal run)
+      # 3. Pasang dependensi HTTP Request langsung via pip terminal
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
