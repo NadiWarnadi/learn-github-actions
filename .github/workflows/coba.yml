@@ -1,22 +1,32 @@
-name: Integration Test Packagist Download
+name: Parallel Packagist Download Test
 
 on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 0 * * *' # Menjalankan tes otomatis setiap hari jam 12 malam
+    - cron: '0 0 * * *' # Menjalankan otomatis setiap hari jam 12 malam
 
 jobs:
   download-test:
     runs-on: ubuntu-latest
+    
+    # --- KONFIGURASI PARALEL MATRIX ---
+    strategy:
+      fail-fast: false
+      matrix:
+        php-version: [ '8.2', '8.3', '8.4', '8.5' ] # Minimal PHP 8.2 sesuai request
+
+    name: Test PHP ${{ matrix.php-version }}
+
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: ${{ matrix.php-version }} # Menggunakan versi dari matrix
 
+      # Menggunakan ^0.2 sesuai dengan versi yang tersedia di Packagist Anda saat ini
       - name: Initialize Dummy Project
-        run: composer init --name="test/app" --require="warnadi/db-stressmit:^0.1.0" -n
+        run: composer init --name="test/app" --require="warnadi/db-stressmit:^0.2" -n
 
       - name: Install Package from Packagist
         run: composer install --no-interaction --prefer-dist
