@@ -32,8 +32,8 @@ jobs:
 
     - name: Commit dan Push Data ke Github
       run: |
-        git config --global user.name "Github Action Bot"
-        git config --global user.email "actions@github.com"
+        git config --global user.name "NadiWarnadi"
+        git config --global user.email "warnadi2006@gmail.com"
         git add data_saham/*.csv
         # Hanya commit jika ada file baru agar workflow tidak error
         git diff-index --quiet HEAD || git commit -m "Update data saham BBRI per menit - $(date +'%Y-%m-%d')"
