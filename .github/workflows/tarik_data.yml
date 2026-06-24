@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.10' # Tentukan versi python agar cache berjalan optimal
-        cache: 'pip'          # Perbaikan sintaks cache untuk setup-python@v5
+              
 
     - name: Instal Pustaka
       run: |
