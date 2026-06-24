@@ -1,4 +1,5 @@
 import yfinance as yf
+import pandas as pd  # <--- Pastikan baris ini sudah ditambahkan
 from datetime import datetime
 import os
 
