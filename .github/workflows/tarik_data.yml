@@ -1,0 +1,35 @@
+name: Tarik Data Saham Harian
+
+on:
+  schedule:
+    # Berjalan setiap Senin - Jumat jam 10:15 UTC (17:15 WIB)
+    - cron: '15 10 * * 1-5'
+  workflow_dispatch: # Tombol manual jika ingin menjalankan kapan saja
+
+jobs:
+  scrape-data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repositori
+      uses: actions/checkout@v4
+
+    - name: Pengaturan Python
+      uses: actions/setup-python@v5
+      with:
+        python-cache: 'pip'
+
+    - name: Instal Pustaka
+      run: |
+        pip install yfinance pandas
+
+    - name: Jalankan Skrip Penarik Data
+      run: python ambil_saham.py
+
+    - name: Commit dan Push Data ke Github
+      run: |
+        git config --global user.name "Github Action Bot"
+        git config --global user.email "actions@github.com"
+        git add data_saham/*.csv
+        # Hanya commit jika ada file baru agar workflow tidak error
+        git diff-index --quiet HEAD || git commit -m "Update data saham BBRI per menit - $(date +'%Y-%m-%d')"
+        git push
