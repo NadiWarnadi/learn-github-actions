@@ -12,7 +12,6 @@ jobs:
 
     permissions:
       contents: write  
-   
 
     steps:
     - name: Checkout Repositori
@@ -21,7 +20,8 @@ jobs:
     - name: Pengaturan Python
       uses: actions/setup-python@v5
       with:
-        python-cache: 'pip'
+        python-version: '3.10' # Tentukan versi python agar cache berjalan optimal
+        cache: 'pip'          # Perbaikan sintaks cache untuk setup-python@v5
 
     - name: Instal Pustaka
       run: |
@@ -31,10 +31,19 @@ jobs:
       run: python ambil_saham.py
 
     - name: Commit dan Push Data ke Github
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Wajib ditambahkan untuk hak akses push
       run: |
         git config --global user.name "NadiWarnadi"
         git config --global user.email "warnadi2006@gmail.com"
-        git add data_saham/*.csv
-        # Hanya commit jika ada file baru agar workflow tidak error
-        git diff-index --quiet HEAD || git commit -m "Update data saham BBRI per menit - $(date +'%Y-%m-%d')"
-        git push
+        
+        # Tambahkan semua perubahan di folder data_saham (termasuk file baru)
+        git add data_saham/
+        
+        # Hanya commit jika ada perubahan agar workflow tidak error
+        if ! git diff --cached --quiet; then
+          git commit -m "Update data saham BBRI per menit - $(date +'%Y-%m-%d')"
+          git push origin HEAD:${{ github.ref_name }}
+        else
+          echo "Tidak ada perubahan data untuk dikesampingkan."
+        fi
