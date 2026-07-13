@@ -1,0 +1,964 @@
+ticker,nama_perusahaan,tanggal_pencatatan,saham_beredar,papan_pencatatan,status_perusahaan,updated_at
+AALI.JK,Astra Agro Lestari Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ABBA.JK,Mahaka Media Tbk.,2002-04-03,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ABDA.JK,Asuransi Bina Dana Arta Tbk.,1989-07-06,0,Pengembangan,Active,2026-07-13 08:10:18
+ABMM.JK,ABM Investama Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ACES.JK,Aspirasi Hidup Indonesia Tbk.,2007-11-06,0,Utama,Active,2026-07-13 08:10:18
+ACST.JK,Acset Indonusa Tbk.,2013-06-24,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ADES.JK,Akasha Wira International Tbk.,1994-06-13,0,Utama,Active,2026-07-13 08:10:18
+ADHI.JK,Adhi Karya (Persero) Tbk.,2004-03-18,0,Utama,Active,2026-07-13 08:10:18
+AISA.JK,FKS Food Sejahtera Tbk.,1997-06-11,0,Utama,Active,2026-07-13 08:10:18
+AKKU.JK,Anugerah Kagum Karya Utama Tbk,2004-11-01,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+AKPI.JK,Argha Karya Prima Industry Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+AKRA.JK,AKR Corporindo Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+AKSI.JK,Mineral Sumberdaya Mandiri Tbk,2001-07-13,0,Pengembangan,Active,2026-07-13 08:10:18
+ALDO.JK,Alkindo Naratama Tbk.,2011-07-12,0,Utama,Active,2026-07-13 08:10:18
+ALKA.JK,Alakasa Industrindo Tbk,1990-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+ALMI.JK,Alumindo Light Metal Industry,1997-01-02,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ALTO.JK,Tri Banyan Tirta Tbk.,2012-07-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+AMAG.JK,Asuransi Multi Artha Guna Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+AMFG.JK,Asahimas Flat Glass Tbk.,1995-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+AMIN.JK,Ateliers Mecaniques D Indonesi,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+AMRT.JK,Sumber Alfaria Trijaya Tbk.,2009-01-15,0,Utama,Active,2026-07-13 08:10:18
+ANJT.JK,Austindo Nusantara Jaya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ANTM.JK,Aneka Tambang (Persero) Tbk.,1997-11-27,0,Utama,Active,2026-07-13 08:10:18
+APEX.JK,Apexindo Pratama Duta Tbk.,2013-06-05,0,Pengembangan,Active,2026-07-13 08:10:18
+APIC.JK,Pacific Strategic Financial Tb,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+APII.JK,Arita Prima Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+APLI.JK,Asiaplast Industries Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+APLN.JK,Agung Podomoro Land Tbk.,2010-11-11,0,Utama,Active,2026-07-13 08:10:18
+ARGO.JK,Argo Pantes Tbk,1991-01-07,0,Pengembangan,Active,2026-07-13 08:10:18
+ARII.JK,Atlas Resources Tbk.,2011-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+ARNA.JK,Arwana Citramulia Tbk.,2001-07-17,0,Utama,Active,2026-07-13 08:10:18
+ARTA.JK,Arthavest Tbk,2002-11-05,0,Pengembangan,Active,2026-07-13 08:10:18
+ARTI.JK,Ratu Prabu Energi Tbk,2003-04-30,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ARTO.JK,Bank Jago Tbk.,2016-01-12,0,Utama,Active,2026-07-13 08:10:18
+ASBI.JK,Asuransi Bintang Tbk.,1989-11-29,0,Pengembangan,Active,2026-07-13 08:10:18
+ASDM.JK,Asuransi Dayin Mitra Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ASGR.JK,Astra Graphia Tbk.,1989-11-15,0,Utama,Active,2026-07-13 08:10:18
+ASII.JK,Astra International Tbk.,1990-04-04,0,Utama,Active,2026-07-13 08:10:18
+ASJT.JK,Asuransi Jasa Tania Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ASMI.JK,Asuransi Maximus Graha Persada,2014-01-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ASRI.JK,Alam Sutera Realty Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ASRM.JK,Asuransi Ramayana Tbk.,1990-03-19,0,Pengembangan,Active,2026-07-13 08:10:18
+ASSA.JK,Adi Sarana Armada Tbk.,2012-11-12,0,Utama,Active,2026-07-13 08:10:18
+ATIC.JK,Anabatic Technologies Tbk.,2015-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+AUTO.JK,Astra Otoparts Tbk.,1998-06-15,0,Utama,Active,2026-07-13 08:10:18
+BABP.JK,Bank MNC Internasional Tbk.,2002-07-15,0,Pengembangan,Active,2026-07-13 08:10:18
+BACA.JK,Bank Capital Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BAJA.JK,Saranacentral Bajatama Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BALI.JK,Bali Towerindo Sentra Tbk.,2014-03-13,0,Utama,Active,2026-07-13 08:10:18
+BAPA.JK,Bekasi Asri Pemula Tbk.,2008-01-14,0,Pengembangan,Active,2026-07-13 08:10:18
+BATA.JK,Sepatu Bata Tbk.,1982-03-24,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BAYU.JK,Bayu Buana Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+BBCA.JK,Bank Central Asia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BBHI.JK,Allo Bank Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BBKP.JK,Bank KB Indonesia Tbk.,2006-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+BBLD.JK,Buana Finance Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BBMD.JK,Bank Mestika Dharma Tbk.,2013-07-08,0,Utama,Active,2026-07-13 08:10:18
+BBNI.JK,Bank Negara Indonesia (Persero,1996-11-25,0,Utama,Active,2026-07-13 08:10:18
+BBRI.JK,Bank Rakyat Indonesia (Persero,2003-11-10,0,Utama,Active,2026-07-13 08:10:18
+BBRM.JK,Pelayaran Nasional Bina Buana,2013-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BBTN.JK,Bank Tabungan Negara (Persero),N/A,0,Utama,Active,2026-07-13 08:10:18
+BBYB.JK,Bank Neo Commerce Tbk.,2015-01-13,0,Utama,Active,2026-07-13 08:10:18
+BCAP.JK,MNC Kapital Indonesia Tbk.,2001-06-08,0,Utama,Active,2026-07-13 08:10:18
+BCIC.JK,Bank JTrust Indonesia Tbk.,1997-06-25,0,Pengembangan,Active,2026-07-13 08:10:18
+BCIP.JK,Bumi Citra Permai Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BDMN.JK,Bank Danamon Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BEKS.JK,Bank Pembangunan Daerah Banten,2001-07-13,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BEST.JK,Bekasi Fajar Industrial Estate,2012-04-10,0,Utama,Active,2026-07-13 08:10:18
+BFIN.JK,BFI Finance  Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BGTG.JK,Bank Ganesha Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BHIT.JK,MNC Asia Holding Tbk.,1997-11-24,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BIKA.JK,Binakarya Jaya Abadi Tbk.,2015-07-14,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BIMA.JK,Primarindo Asia Infrastructure,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BINA.JK,Bank Ina Perdana Tbk.,2014-01-16,0,Utama,Active,2026-07-13 08:10:18
+BIPI.JK,Astrindo Nusantara Infrastrukt,2010-02-11,0,Pengembangan,Active,2026-07-13 08:10:18
+BIPP.JK,Bhuwanatala Indah Permai Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BIRD.JK,Blue Bird Tbk.,2014-11-05,0,Utama,Active,2026-07-13 08:10:18
+BISI.JK,BISI International Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BJBR.JK,Bank Pembangunan Daerah Jawa B,2010-07-08,0,Utama,Active,2026-07-13 08:10:18
+BJTM.JK,Bank Pembangunan Daerah Jawa T,2012-07-12,0,Utama,Active,2026-07-13 08:10:18
+BKDP.JK,Bukit Darmo Property Tbk,2007-06-15,0,Pengembangan,Active,2026-07-13 08:10:18
+BKSL.JK,Sentul City Tbk.,1997-07-28,0,Utama,Active,2026-07-13 08:10:18
+BKSW.JK,Bank QNB Indonesia Tbk.,2002-11-21,0,Pengembangan,Active,2026-07-13 08:10:18
+BLTA.JK,Berlian Laju Tanker Tbk,1990-03-26,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BLTZ.JK,Graha Layar Prima Tbk.,2014-04-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BMAS.JK,Bank Maspion Indonesia Tbk.,2013-07-11,0,Pengembangan,Active,2026-07-13 08:10:18
+BMRI.JK,Bank Mandiri (Persero) Tbk.,2003-07-14,0,Utama,Active,2026-07-13 08:10:18
+BMSR.JK,Bintang Mitra Semestaraya Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BMTR.JK,Global Mediacom Tbk.,1995-07-17,0,Utama,Active,2026-07-13 08:10:18
+BNBA.JK,Bank Bumi Arta Tbk.,2006-06-01,0,Pengembangan,Active,2026-07-13 08:10:18
+BNBR.JK,Bakrie & Brothers Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BNGA.JK,Bank CIMB Niaga Tbk.,1989-11-29,0,Utama,Active,2026-07-13 08:10:18
+BNII.JK,Bank Maybank Indonesia Tbk.,1989-11-21,0,Utama,Active,2026-07-13 08:10:18
+BNLI.JK,Bank Permata Tbk.,1990-01-15,0,Utama,Active,2026-07-13 08:10:18
+BOLT.JK,Garuda Metalindo Tbk.,2015-07-07,0,Pengembangan,Active,2026-07-13 08:10:18
+BPFI.JK,Woori Finance Indonesia Tbk.,2009-06-01,0,Pengembangan,Active,2026-07-13 08:10:18
+BPII.JK,Batavia Prosperindo Internasio,2014-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+BRAM.JK,Indo Kordsa Tbk.,1990-09-05,0,Pengembangan,Active,2026-07-13 08:10:18
+BRMS.JK,Bumi Resources Minerals Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BRNA.JK,Berlina Tbk.,1989-11-06,0,Pengembangan,Active,2026-07-13 08:10:18
+BRPT.JK,Barito Pacific Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BSDE.JK,Bumi Serpong Damai Tbk.,2008-06-06,0,Utama,Active,2026-07-13 08:10:18
+BSIM.JK,Bank Sinarmas Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BSSR.JK,Baramulti Suksessarana Tbk.,2012-11-08,0,Utama,Active,2026-07-13 08:10:18
+BSWD.JK,Bank Of India Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BTEK.JK,Bumi Teknokultura Unggul Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BTEL.JK,Bakrie Telecom Tbk.,2006-02-03,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BTON.JK,Betonjaya Manunggal Tbk.,2001-07-18,0,Pengembangan,Active,2026-07-13 08:10:18
+BTPN.JK,Bank SMBC Indonesia Tbk.,2008-03-12,0,Utama,Active,2026-07-13 08:10:18
+BUDI.JK,Budi Starch & Sweetener Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BUKK.JK,Bukaka Teknik Utama Tbk.,2015-06-29,0,Pengembangan,Active,2026-07-13 08:10:18
+BULL.JK,Buana Lintas Lautan Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BUMI.JK,Bumi Resources Tbk.,1990-07-30,0,Utama,Active,2026-07-13 08:10:18
+BUVA.JK,Bukit Uluwatu Villa Tbk.,2010-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+BVIC.JK,Bank Victoria International Tb,1999-06-30,0,Utama,Active,2026-07-13 08:10:18
+BWPT.JK,Eagle High Plantations Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BYAN.JK,Bayan Resources Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+CANI.JK,Capitol Nusantara Indonesia Tb,2014-01-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CASS.JK,Cahaya Aero Services Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+CEKA.JK,Wilmar Cahaya Indonesia Tbk.,1996-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+CENT.JK,Centratama Telekomunikasi Indo,2001-11-01,0,Pengembangan,Active,2026-07-13 08:10:18
+CFIN.JK,Clipan Finance Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+CINT.JK,Chitose Internasional Tbk.,2014-06-27,0,Pengembangan,Active,2026-07-13 08:10:18
+CITA.JK,Cita Mineral Investindo Tbk.,2002-03-20,0,Utama,Active,2026-07-13 08:10:18
+CLPI.JK,Colorpak Indonesia Tbk.,2001-11-30,0,Pengembangan,Active,2026-07-13 08:10:18
+CMNP.JK,Citra Marga Nusaphala Persada,1995-01-10,0,Utama,Active,2026-07-13 08:10:18
+CMPP.JK,AirAsia Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CNKO.JK,Exploitasi Energi Indonesia Tb,2001-11-20,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CNTX.JK,Century Textile Industry Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+COWL.JK,Cowell Development Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CPIN.JK,Charoen Pokphand Indonesia Tbk,1991-03-18,0,Utama,Active,2026-07-13 08:10:18
+CPRO.JK,Central Proteina Prima Tbk.,2006-11-28,0,Pengembangan,Active,2026-07-13 08:10:18
+CSAP.JK,Catur Sentosa Adiprana Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+CTBN.JK,Citra Tubindo Tbk.,1989-11-28,0,Pengembangan,Active,2026-07-13 08:10:18
+CTRA.JK,Ciputra Development Tbk.,1994-03-28,0,Utama,Active,2026-07-13 08:10:18
+CTTH.JK,Citatah Tbk.,1996-07-03,0,Pengembangan,Active,2026-07-13 08:10:18
+DART.JK,Duta Anggada Realty Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DEFI.JK,Danasupra Erapacific Tbk.,2001-07-06,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+DEWA.JK,Darma Henwa Tbk,2007-09-26,0,Utama,Active,2026-07-13 08:10:18
+DGIK.JK,Nusa Konstruksi Enjiniring Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DILD.JK,Intiland Development Tbk.,1991-09-04,0,Utama,Active,2026-07-13 08:10:18
+DKFT.JK,Central Omega Resources Tbk.,1997-11-21,0,Utama,Active,2026-07-13 08:10:18
+DLTA.JK,Delta Djakarta Tbk.,1984-02-27,0,Utama,Active,2026-07-13 08:10:18
+DMAS.JK,Puradelta Lestari Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+DNAR.JK,Bank Oke Indonesia Tbk.,2014-07-11,0,Pengembangan,Active,2026-07-13 08:10:18
+DNET.JK,Indoritel Makmur Internasional,N/A,0,Utama,Active,2026-07-13 08:10:18
+DOID.JK,BUMA Internasional Grup Tbk.,2001-06-15,0,Pengembangan,Active,2026-07-13 08:10:18
+DPNS.JK,Duta Pertiwi Nusantara Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DSFI.JK,Dharma Samudera Fishing Indust,2000-03-24,0,Pengembangan,Active,2026-07-13 08:10:18
+DSNG.JK,Dharma Satya Nusantara Tbk.,2013-06-14,0,Utama,Active,2026-07-13 08:10:18
+DSSA.JK,Dian Swastatika Sentosa Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+DUTI.JK,Duta Pertiwi Tbk,1994-11-02,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+DVLA.JK,Darya-Varia Laboratoria Tbk.,1994-11-11,0,Pengembangan,Active,2026-07-13 08:10:18
+DYAN.JK,Dyandra Media International Tb,2013-03-25,0,Pengembangan,Active,2026-07-13 08:10:18
+ECII.JK,Electronic City Indonesia Tbk.,2013-07-03,0,Pengembangan,Active,2026-07-13 08:10:18
+EKAD.JK,Ekadharma International Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ELSA.JK,Elnusa Tbk.,2008-02-06,0,Utama,Active,2026-07-13 08:10:18
+ELTY.JK,Bakrieland Development Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+EMDE.JK,Megapolitan Developments Tbk.,2011-01-12,0,Pengembangan,Active,2026-07-13 08:10:18
+EMTK.JK,Elang Mahkota Teknologi Tbk.,2010-01-12,0,Utama,Active,2026-07-13 08:10:18
+ENRG.JK,Energi Mega Persada Tbk.,2004-06-07,0,Utama,Active,2026-07-13 08:10:18
+EPMT.JK,Enseval Putera Megatrading Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+ERAA.JK,Erajaya Swasembada Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ERTX.JK,Eratex Djaja Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ESSA.JK,ESSA Industries Indonesia Tbk.,2012-02-01,0,Utama,Active,2026-07-13 08:10:18
+ESTI.JK,Ever Shine Tex Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ETWA.JK,Eterindo Wahanatama Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+EXCL.JK,XLSMART Telecom Sejahtera Tbk.,2005-09-29,0,Utama,Active,2026-07-13 08:10:18
+FAST.JK,Fast Food Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+FASW.JK,Fajar Surya Wisesa Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+FISH.JK,FKS Multi Agro Tbk.,2002-01-18,0,Utama,Active,2026-07-13 08:10:18
+FMII.JK,Fortune Mate Indonesia Tbk,2000-06-30,0,Pengembangan,Active,2026-07-13 08:10:18
+FORU.JK,Fortune Indonesia Tbk,2002-01-17,0,Pengembangan,Active,2026-07-13 08:10:18
+FPNI.JK,Lotte Chemical Titan Tbk.,2002-03-21,0,Pengembangan,Active,2026-07-13 08:10:18
+GAMA.JK,Aksara Global Development Tbk.,2012-07-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+GDST.JK,Gunawan Dianjaya Steel Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GDYR.JK,Goodyear Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GEMA.JK,Gema Grahasarana Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GEMS.JK,Golden Energy Mines Tbk.,2011-11-17,0,Utama,Active,2026-07-13 08:10:18
+GGRM.JK,Gudang Garam Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+GIAA.JK,Garuda Indonesia (Persero) Tbk,2011-02-11,0,Pengembangan,Active,2026-07-13 08:10:18
+GJTL.JK,Gajah Tunggal Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+GLOB.JK,Globe Kita Terang Tbk.,2012-07-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+GMTD.JK,Gowa Makassar Tourism Developm,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GOLD.JK,Visi Telekomunikasi Infrastruk,2010-07-07,0,Pengembangan,Active,2026-07-13 08:10:18
+GOLL.JK,Golden Plantation Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+GPRA.JK,Perdana Gapuraprima Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GSMF.JK,Equity Development Investment,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GTBO.JK,Garda Tujuh Buana Tbk,2009-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+GWSA.JK,Greenwood Sejahtera Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GZCO.JK,Gozco Plantations Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+HADE.JK,Himalaya Energi Perkasa Tbk.,2004-04-12,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HDFA.JK,Radana Bhaskara Finance Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+HERO.JK,DFI Retail Nusantara Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+HEXA.JK,Hexindo Adiperkasa Tbk.,1995-02-13,0,Utama,Active,2026-07-13 08:10:18
+HITS.JK,Humpuss Intermoda Transportasi,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HMSP.JK,H.M. Sampoerna Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+HOME.JK,Hotel Mandarine Regency Tbk.,2008-07-17,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HOTL.JK,Saraswati Griya Lestari Tbk.,2013-01-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HRUM.JK,Harum Energy Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+IATA.JK,Karya Pacific Energy Tbk.,2006-09-13,0,Pengembangan,Active,2026-07-13 08:10:18
+IBFN.JK,Intan Baru Prana Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+IBST.JK,Inti Bangun Sejahtera Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ICBP.JK,Indofood CBP Sukses Makmur Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+ICON.JK,Island Concepts Indonesia Tbk.,2005-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+IGAR.JK,Champion Pacific Indonesia Tbk,1990-11-05,0,Pengembangan,Active,2026-07-13 08:10:18
+IIKP.JK,Inti Agri Resources Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+IKAI.JK,Intikeramik Alamasri Industri,1997-06-04,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+IKBI.JK,Sumi Indo Kabel Tbk.,1991-01-21,0,Pengembangan,Active,2026-07-13 08:10:18
+IMAS.JK,Indomobil Sukses Internasional,1993-11-15,0,Utama,Active,2026-07-13 08:10:18
+IMJS.JK,Indomobil Multi Jasa Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+IMPC.JK,Impack Pratama Industri Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+INAF.JK,Indofarma Tbk.,2001-04-17,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+INAI.JK,Indal Aluminium Industry Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+INCI.JK,Intanwijaya Internasional Tbk,1990-07-24,0,Pengembangan,Active,2026-07-13 08:10:18
+INCO.JK,Vale Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+INDF.JK,Indofood Sukses Makmur Tbk.,1994-07-14,0,Utama,Active,2026-07-13 08:10:18
+INDR.JK,Indo-Rama Synthetics Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+INDS.JK,Indospring Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+INDX.JK,Tanah Laut Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+INDY.JK,Indika Energy Tbk.,2008-06-11,0,Utama,Active,2026-07-13 08:10:18
+INKP.JK,Indah Kiat Pulp & Paper Tbk.,1990-07-16,0,Utama,Active,2026-07-13 08:10:18
+INPC.JK,Bank Artha Graha Internasional,N/A,0,Utama,Active,2026-07-13 08:10:18
+INPP.JK,Indonesian Paradise Property T,2004-01-12,0,Pengembangan,Active,2026-07-13 08:10:18
+INRU.JK,Toba Pulp Lestari Tbk.,1990-06-18,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+INTA.JK,Intraco Penta Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+INTD.JK,Inter Delta Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+INTP.JK,Indocement Tunggal Prakarsa Tb,N/A,0,Utama,Active,2026-07-13 08:10:18
+IPOL.JK,Indopoly Swakarsa Industry Tbk,2010-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+ISAT.JK,Indosat Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ISSP.JK,Steel Pipe Industry of Indones,2013-02-22,0,Utama,Active,2026-07-13 08:10:18
+ITMA.JK,Sumber Energi Andalan Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ITMG.JK,Indo Tambangraya Megah Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+JAWA.JK,Jaya Agra Wattie Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+JECC.JK,Jembo Cable Company Tbk.,1992-11-18,0,Pengembangan,Active,2026-07-13 08:10:18
+JIHD.JK,Jakarta International Hotels &,1984-02-29,0,Utama,Active,2026-07-13 08:10:18
+JKON.JK,Jaya Konstruksi Manggala Prata,N/A,0,Utama,Active,2026-07-13 08:10:18
+JPFA.JK,Japfa Comfeed Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+JRPT.JK,Jaya Real Property Tbk.,1994-06-29,0,Utama,Active,2026-07-13 08:10:18
+JSMR.JK,Jasa Marga (Persero) Tbk.,2007-11-12,0,Utama,Active,2026-07-13 08:10:18
+JSPT.JK,Jakarta Setiabudi Internasiona,1998-01-12,0,Utama,Active,2026-07-13 08:10:18
+JTPE.JK,Jasuindo Tiga Perkasa Tbk.,2002-04-16,0,Utama,Active,2026-07-13 08:10:18
+KAEF.JK,Kimia Farma Tbk.,2001-07-04,0,Pengembangan,Active,2026-07-13 08:10:18
+KARW.JK,Meratus Jasa Prima Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KBLI.JK,KMI Wire & Cable Tbk.,1992-07-06,0,Utama,Active,2026-07-13 08:10:18
+KBLM.JK,Kabelindo Murni Tbk.,1992-06-01,0,Pengembangan,Active,2026-07-13 08:10:18
+KBLV.JK,First Media Tbk.,2000-02-25,0,Pengembangan,Active,2026-07-13 08:10:18
+KBRI.JK,Kertas Basuki Rachmat Indonesi,2008-07-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KDSI.JK,Kedawung Setia Industrial Tbk.,1996-07-29,0,Pengembangan,Active,2026-07-13 08:10:18
+KIAS.JK,Keramika Indonesia Assosiasi T,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KICI.JK,Kedaung Indah Can Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KIJA.JK,Kawasan Industri Jababeka Tbk.,1995-01-10,0,Utama,Active,2026-07-13 08:10:18
+KKGI.JK,Resource Alam Indonesia Tbk.,1991-07-01,0,Utama,Active,2026-07-13 08:10:18
+KLBF.JK,Kalbe Farma Tbk.,1991-07-30,0,Utama,Active,2026-07-13 08:10:18
+KOBX.JK,Kobexindo Tractors Tbk.,2012-07-05,0,Pengembangan,Active,2026-07-13 08:10:18
+KOIN.JK,Kokoh Inti Arebama Tbk,2008-04-09,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KONI.JK,Perdana Bangun Pusaka Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KOPI.JK,Mitra Energi Persada Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KPIG.JK,MNC Tourism Indonesia Tbk.,2000-03-30,0,Utama,Active,2026-07-13 08:10:18
+KRAS.JK,Krakatau Steel (Persero) Tbk.,2010-11-10,0,Pengembangan,Active,2026-07-13 08:10:18
+KREN.JK,Quantum Clovera Investama Tbk.,2002-06-28,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LAPD.JK,Leyand International Tbk.,2001-07-17,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LCGP.JK,Eureka Prima Jakarta Tbk.,2007-07-13,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LEAD.JK,Logindo Samudramakmur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LINK.JK,Link Net Tbk.,2014-06-02,0,Pengembangan,Active,2026-07-13 08:10:18
+LION.JK,Lion Metal Works Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LMAS.JK,Limas Indonesia Makmur Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LMPI.JK,Langgeng Makmur Industri Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LMSH.JK,Lionmesh Prima Tbk.,1990-06-04,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LPCK.JK,Lippo Cikarang Tbk,1997-07-24,0,Utama,Active,2026-07-13 08:10:18
+LPGI.JK,Lippo General Insurance Tbk.,1997-07-22,0,Pengembangan,Active,2026-07-13 08:10:18
+LPIN.JK,Multi Prima Sejahtera Tbk,1990-02-05,0,Pengembangan,Active,2026-07-13 08:10:18
+LPKR.JK,Lippo Karawaci Tbk.,1996-06-28,0,Utama,Active,2026-07-13 08:10:18
+LPLI.JK,Star Pacific Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LPPF.JK,MDS Retailing Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+LPPS.JK,Lenox Pasifik Investama Tbk.,1994-03-28,0,Pengembangan,Active,2026-07-13 08:10:18
+LRNA.JK,Eka Sari Lorena Transport Tbk.,2014-04-15,0,Pengembangan,Active,2026-07-13 08:10:18
+LSIP.JK,PP London Sumatra Indonesia Tb,1996-07-05,0,Utama,Active,2026-07-13 08:10:18
+LTLS.JK,Lautan Luas Tbk.,1997-07-21,0,Utama,Active,2026-07-13 08:10:18
+MAGP.JK,Multi Agro Gemilang Plantation,2013-01-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MAIN.JK,Malindo Feedmill Tbk.,2006-02-10,0,Utama,Active,2026-07-13 08:10:18
+MAPI.JK,Mitra Adiperkasa Tbk.,2004-11-10,0,Utama,Active,2026-07-13 08:10:18
+MAYA.JK,Bank Mayapada Internasional Tb,N/A,0,Utama,Active,2026-07-13 08:10:18
+MBAP.JK,Mitrabara Adiperdana Tbk.,2014-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+MBSS.JK,Mitrabahtera Segara Sejati Tbk,2011-04-06,0,Utama,Active,2026-07-13 08:10:18
+MBTO.JK,Martina Berto Tbk.,2011-01-13,0,Pengembangan,Active,2026-07-13 08:10:18
+MCOR.JK,Bank China Construction Bank I,2007-07-03,0,Utama,Active,2026-07-13 08:10:18
+MDIA.JK,Intermedia Capital Tbk.,2014-04-11,0,Pengembangan,Active,2026-07-13 08:10:18
+MDKA.JK,Merdeka Copper Gold Tbk.,2015-06-19,0,Utama,Active,2026-07-13 08:10:18
+MDLN.JK,Modernland Realty Tbk.,1993-01-18,0,Pengembangan,Active,2026-07-13 08:10:18
+MDRN.JK,Modern Internasional Tbk.,1991-07-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MEDC.JK,Medco Energi Internasional Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+MEGA.JK,Bank Mega Tbk.,2000-04-17,0,Utama,Active,2026-07-13 08:10:18
+MERK.JK,Merck Tbk.,1981-07-23,0,Utama,Active,2026-07-13 08:10:18
+META.JK,Nusantara Infrastructure Tbk.,2001-07-18,0,Pengembangan,Active,2026-07-13 08:10:18
+MFMI.JK,Multifiling Mitra Indonesia Tb,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MGNA.JK,Magna Investama Mandiri Tbk.,2014-07-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MICE.JK,Multi Indocitra Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MIDI.JK,Midi Utama Indonesia Tbk.,2010-11-30,0,Utama,Active,2026-07-13 08:10:18
+MIKA.JK,Mitra Keluarga Karyasehat Tbk.,2015-03-24,0,Utama,Active,2026-07-13 08:10:18
+MIRA.JK,Mitra International Resources,1997-01-30,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MITI.JK,Mitra Investindo Tbk.,1997-07-16,0,Pengembangan,Active,2026-07-13 08:10:18
+MKPI.JK,Metropolitan Kentjana Tbk.,2009-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+MLBI.JK,Multi Bintang Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+MLIA.JK,Mulia Industrindo Tbk,1994-01-17,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MLPL.JK,Multipolar Tbk.,1989-11-06,0,Utama,Active,2026-07-13 08:10:18
+MLPT.JK,Multipolar Technology Tbk.,2013-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+MMLP.JK,Mega Manunggal Property Tbk.,2015-06-12,0,Pengembangan,Active,2026-07-13 08:10:18
+MNCN.JK,Media Nusantara Citra Tbk.,2007-06-22,0,Utama,Active,2026-07-13 08:10:18
+MPMX.JK,Mitra Pinasthika Mustika Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+MPPA.JK,Matahari Putra Prima Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MRAT.JK,Mustika Ratu Tbk.,1995-07-27,0,Pengembangan,Active,2026-07-13 08:10:18
+MREI.JK,Maskapai Reasuransi Indonesia,1989-09-04,0,Utama,Active,2026-07-13 08:10:18
+MSKY.JK,MNC Sky Vision Tbk.,2012-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+MTDL.JK,Metrodata Electronics Tbk.,1990-04-09,0,Utama,Active,2026-07-13 08:10:18
+MTFN.JK,Capitalinc Investment Tbk.,1990-04-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MTLA.JK,Metropolitan Land Tbk.,2011-06-20,0,Utama,Active,2026-07-13 08:10:18
+MTSM.JK,Metro Realty Tbk.,1992-01-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MYOH.JK,Samindo Resources Tbk.,2000-07-27,0,Pengembangan,Active,2026-07-13 08:10:18
+MYOR.JK,Mayora Indah Tbk.,1990-07-04,0,Utama,Active,2026-07-13 08:10:18
+MYTX.JK,Asia Pacific Investama Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+NELY.JK,Pelayaran Nelly Dwi Putri Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+NIKL.JK,Pelat Timah Nusantara Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+NIRO.JK,City Retail Developments Tbk.,2012-09-13,0,Pengembangan,Active,2026-07-13 08:10:18
+NISP.JK,Bank OCBC NISP Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+NOBU.JK,Bank Nationalnobu Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+NRCA.JK,Nusa Raya Cipta Tbk.,2013-06-27,0,Pengembangan,Active,2026-07-13 08:10:18
+OCAP.JK,Onix Capital Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+OKAS.JK,Ancora Indonesia Resources Tbk,2006-03-29,0,Pengembangan,Active,2026-07-13 08:10:18
+OMRE.JK,Indonesia Prima Property Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PADI.JK,Minna Padi Investama Sekuritas,2012-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+PALM.JK,Provident Investasi Bersama Tb,N/A,0,Utama,Active,2026-07-13 08:10:18
+PANR.JK,Panorama Sentrawisata Tbk.,2001-09-18,0,Pengembangan,Active,2026-07-13 08:10:18
+PANS.JK,Panin Sekuritas Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PBRX.JK,Pan Brothers Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PDES.JK,Destinasi Tirta Nusantara Tbk,2008-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+PEGE.JK,Panca Global Kapital Tbk.,2005-06-24,0,Pengembangan,Active,2026-07-13 08:10:18
+PGAS.JK,Perusahaan Gas Negara (Persero,N/A,0,Utama,Active,2026-07-13 08:10:18
+PGLI.JK,Pembangunan Graha Lestari Inda,2000-04-05,0,Pengembangan,Active,2026-07-13 08:10:18
+PICO.JK,Pelangi Indah Canindo Tbk,1996-09-23,0,Pengembangan,Active,2026-07-13 08:10:18
+PJAA.JK,Pembangunan Jaya Ancol Tbk.,2004-07-02,0,Pengembangan,Active,2026-07-13 08:10:18
+PKPK.JK,Paragon Karya Perkasa Tbk.,2007-07-11,0,Pengembangan,Active,2026-07-13 08:10:18
+PLAS.JK,Polaris Investama Tbk,2001-03-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PLIN.JK,Plaza Indonesia Realty Tbk.,1992-06-15,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PNBN.JK,Bank Pan Indonesia Tbk,N/A,0,Utama,Active,2026-07-13 08:10:18
+PNBS.JK,Bank Panin Dubai Syariah Tbk.,2014-01-15,0,Pengembangan,Active,2026-07-13 08:10:18
+PNIN.JK,Paninvest Tbk.,1983-09-20,0,Utama,Active,2026-07-13 08:10:18
+PNLF.JK,Panin Financial Tbk.,1983-06-14,0,Utama,Active,2026-07-13 08:10:18
+PSAB.JK,J Resources Asia Pasifik Tbk.,2003-04-22,0,Pengembangan,Active,2026-07-13 08:10:18
+PSDN.JK,Prasidha Aneka Niaga Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PSKT.JK,Red Planet Indonesia Tbk.,1995-09-19,0,Pengembangan,Active,2026-07-13 08:10:18
+PTBA.JK,Bukit Asam (Persero) Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PTIS.JK,Indo Straits Tbk.,2011-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+PTPP.JK,PP (Persero) Tbk.,2010-02-09,0,Utama,Active,2026-07-13 08:10:18
+PTRO.JK,Petrosea Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PTSN.JK,Sat Nusapersada Tbk,2007-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+PTSP.JK,Pioneerindo Gourmet Internatio,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PUDP.JK,Pudjiadi Prestige Tbk.,1994-11-18,0,Pengembangan,Active,2026-07-13 08:10:18
+PWON.JK,Pakuwon Jati Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PYFA.JK,Pyridam Farma Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+RAJA.JK,Rukun Raharja Tbk.,2006-04-19,0,Utama,Active,2026-07-13 08:10:18
+RALS.JK,Ramayana Lestari Sentosa Tbk.,1996-07-24,0,Utama,Active,2026-07-13 08:10:18
+RANC.JK,Supra Boga Lestari Tbk.,2012-06-07,0,Pengembangan,Active,2026-07-13 08:10:18
+RBMS.JK,Ristia Bintang Mahkotasejati T,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+RDTX.JK,Roda Vivatex Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+RELI.JK,Reliance Sekuritas Indonesia T,2005-07-13,0,Pengembangan,Active,2026-07-13 08:10:18
+RICY.JK,Ricky Putra Globalindo Tbk,1998-01-22,0,Pengembangan,Active,2026-07-13 08:10:18
+RIGS.JK,Rig Tenders Indonesia Tbk.,1990-03-05,0,Pengembangan,Active,2026-07-13 08:10:18
+RIMO.JK,Rimo International Lestari Tbk,2000-11-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+RODA.JK,Pikko Land Development Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ROTI.JK,Nippon Indosari Corpindo Tbk.,2010-06-28,0,Pengembangan,Active,2026-07-13 08:10:18
+RUIS.JK,Radiant Utama Interinsco Tbk.,2006-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+SAFE.JK,Steady Safe Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SAME.JK,Sarana Meditama Metropolitan T,2013-01-11,0,Utama,Active,2026-07-13 08:10:18
+SCCO.JK,Supreme Cable Manufacturing &,1982-07-20,0,Pengembangan,Active,2026-07-13 08:10:18
+SCMA.JK,Surya Citra Media Tbk.,2002-07-16,0,Utama,Active,2026-07-13 08:10:18
+SCPI.JK,Organon Pharma Indonesia Tbk.,1990-06-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SDMU.JK,Sidomulyo Selaras Tbk.,2011-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+SDPC.JK,Millennium Pharmacon Internati,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SDRA.JK,Bank Woori Saudara Indonesia 1,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SGRO.JK,Prime Agri Resources Tbk.,2007-06-18,0,Utama,Active,2026-07-13 08:10:18
+SHID.JK,Hotel Sahid Jaya International,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SIDO.JK,Industri Jamu dan Farmasi Sido,N/A,0,Utama,Active,2026-07-13 08:10:18
+SILO.JK,Siloam International Hospitals,2013-09-12,0,Utama,Active,2026-07-13 08:10:18
+SIMA.JK,Siwani Makmur Tbk,1994-06-03,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SIMP.JK,Salim Ivomas Pratama Tbk.,2011-06-09,0,Utama,Active,2026-07-13 08:10:18
+SIPD.JK,Sreeya Sewu Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SKBM.JK,Sekar Bumi Tbk.,2012-09-28,0,Pengembangan,Active,2026-07-13 08:10:18
+SKLT.JK,Sekar Laut Tbk.,1993-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+SKYB.JK,Northcliff Citranusa Indonesia,2010-07-07,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SMAR.JK,Sinar Mas Agro Resources and T,1992-11-20,0,Utama,Active,2026-07-13 08:10:18
+SMBR.JK,Semen Baturaja (Persero) Tbk.,2013-06-28,0,Utama,Active,2026-07-13 08:10:18
+SMCB.JK,Solusi Bangun Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SMDM.JK,Suryamas Dutamakmur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SMDR.JK,Samudera Indonesia  Tbk.,1999-07-05,0,Utama,Active,2026-07-13 08:10:18
+SMGR.JK,Semen Indonesia (Persero) Tbk.,1991-07-08,0,Utama,Active,2026-07-13 08:10:18
+SMMA.JK,Sinarmas Multiartha Tbk.,1995-07-05,0,Pengembangan,Active,2026-07-13 08:10:18
+SMMT.JK,Golden Eagle Energy Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SMRA.JK,Summarecon Agung Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+SMRU.JK,SMR Utama Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SMSM.JK,Selamat Sempurna Tbk.,1996-09-09,0,Utama,Active,2026-07-13 08:10:18
+SOCI.JK,Soechi Lines Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SONA.JK,Sona Topas Tourism Industry Tb,1992-07-21,0,Pengembangan,Active,2026-07-13 08:10:18
+SPMA.JK,Suparma Tbk.,1994-11-16,0,Pengembangan,Active,2026-07-13 08:10:18
+SQMI.JK,Wilton Makmur Indonesia Tbk.,2004-07-15,0,Pengembangan,Active,2026-07-13 08:10:18
+SRAJ.JK,Sejahteraraya Anugrahjaya Tbk.,2011-04-11,0,Pengembangan,Active,2026-07-13 08:10:18
+SRIL.JK,Sri Rejeki Isman Tbk.,2013-06-17,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SRSN.JK,Indo Acidatama Tbk,1993-01-11,0,Pengembangan,Active,2026-07-13 08:10:18
+SRTG.JK,Saratoga Investama Sedaya Tbk.,2013-06-26,0,Utama,Active,2026-07-13 08:10:18
+SSIA.JK,Surya Semesta Internusa Tbk.,1997-03-27,0,Utama,Active,2026-07-13 08:10:18
+SSMS.JK,Sawit Sumbermas Sarana Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+SSTM.JK,Sunson Textile Manufacture Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+STAR.JK,Calculus Global Ventures Tbk.,2011-07-13,0,Pengembangan,Active,2026-07-13 08:10:18
+STTP.JK,Siantar Top Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SUGI.JK,Sugih Energy Tbk.,2002-06-19,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SULI.JK,SLJ Global Tbk.,1994-03-21,0,Pengembangan,Active,2026-07-13 08:10:18
+SUPR.JK,Solusi Tunas Pratama Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TALF.JK,Tunas Alfin Tbk.,2014-01-17,0,Pengembangan,Active,2026-07-13 08:10:18
+TARA.JK,Agung Semesta Sejahtera Tbk.,2014-07-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TAXI.JK,Express Transindo Utama Tbk.,2012-11-02,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TBIG.JK,Tower Bersama Infrastructure T,N/A,0,Utama,Active,2026-07-13 08:10:18
+TBLA.JK,Tunas Baru Lampung Tbk.,2000-02-14,0,Utama,Active,2026-07-13 08:10:18
+TBMS.JK,Tembaga Mulia Semanan Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+TCID.JK,Mandom Indonesia Tbk.,1993-09-30,0,Pengembangan,Active,2026-07-13 08:10:18
+TELE.JK,Omni Inovasi Indonesia Tbk.,2012-01-12,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TFCO.JK,Tifico Fiber Indonesia Tbk.,1980-02-26,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TGKA.JK,Tigaraksa Satria Tbk.,1990-06-11,0,Pengembangan,Active,2026-07-13 08:10:18
+TIFA.JK,KDB Tifa Finance Tbk.,2011-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+TINS.JK,TIMAH (Persero) Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TIRA.JK,Tira Austenite Tbk,1993-07-27,0,Pengembangan,Active,2026-07-13 08:10:18
+TIRT.JK,Tirta Mahakam Resources Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TKIM.JK,Pabrik Kertas Tjiwi Kimia Tbk.,1990-04-03,0,Utama,Active,2026-07-13 08:10:18
+TLKM.JK,Telkom Indonesia (Persero) Tbk,1995-11-14,0,Utama,Active,2026-07-13 08:10:18
+TMAS.JK,Temas Tbk.,2003-07-09,0,Utama,Active,2026-07-13 08:10:18
+TMPO.JK,Tempo Intimedia Tbk.,2001-01-08,0,Pengembangan,Active,2026-07-13 08:10:18
+TOBA.JK,TBS Energi Utama Tbk.,2012-07-06,0,Utama,Active,2026-07-13 08:10:18
+TOTL.JK,Total Bangun Persada Tbk.,2006-07-25,0,Utama,Active,2026-07-13 08:10:18
+TOTO.JK,Surya Toto Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TOWR.JK,Sarana Menara Nusantara Tbk.,2010-03-08,0,Utama,Active,2026-07-13 08:10:18
+TPIA.JK,Chandra Asri Pacific Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TPMA.JK,Trans Power Marine Tbk.,2013-02-20,0,Utama,Active,2026-07-13 08:10:18
+TRAM.JK,Trada Alam Minera Tbk.,2008-09-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TRIL.JK,Triwira Insanlestari Tbk.,2008-01-28,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TRIM.JK,Trimegah Sekuritas Indonesia T,2000-01-31,0,Utama,Active,2026-07-13 08:10:18
+TRIO.JK,Trikomsel Oke Tbk.,2009-04-14,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TRIS.JK,Trisula International Tbk.,2012-06-28,0,Pengembangan,Active,2026-07-13 08:10:18
+TRST.JK,Trias Sentosa Tbk.,1990-07-02,0,Pengembangan,Active,2026-07-13 08:10:18
+TRUS.JK,Trust Finance Indonesia Tbk,2002-11-28,0,Pengembangan,Active,2026-07-13 08:10:18
+TSPC.JK,Tempo Scan Pacific Tbk.,1994-06-17,0,Utama,Active,2026-07-13 08:10:18
+ULTJ.JK,Ultrajaya Milk Industry & Trad,1990-07-02,0,Utama,Active,2026-07-13 08:10:18
+UNIC.JK,Unggul Indah Cahaya Tbk.,1989-11-06,0,Utama,Active,2026-07-13 08:10:18
+UNIT.JK,Nusantara Inti Corpora Tbk,2002-04-18,0,Pengembangan,Active,2026-07-13 08:10:18
+UNSP.JK,Bakrie Sumatera Plantations Tb,1990-03-06,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+UNTR.JK,United Tractors Tbk.,1989-09-19,0,Utama,Active,2026-07-13 08:10:18
+UNVR.JK,Unilever Indonesia Tbk.,1982-01-11,0,Utama,Active,2026-07-13 08:10:18
+VICO.JK,Victoria Investama Tbk.,2013-07-08,0,Utama,Active,2026-07-13 08:10:18
+VINS.JK,Victoria Insurance Tbk.,2015-09-28,0,Pengembangan,Active,2026-07-13 08:10:18
+VIVA.JK,Visi Media Asia Tbk.,2011-11-21,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+VOKS.JK,Voksel Electric Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+VRNA.JK,Mizuho Leasing Indonesia Tbk.,2008-06-25,0,Pengembangan,Active,2026-07-13 08:10:18
+WAPO.JK,Wahana Pronatural Tbk.,2001-06-22,0,Pengembangan,Active,2026-07-13 08:10:18
+WEHA.JK,WEHA Transportasi Indonesia Tb,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+WICO.JK,Wicaksana Overseas Internation,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+WIIM.JK,Wismilak Inti Makmur Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+WIKA.JK,Wijaya Karya (Persero) Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+WINS.JK,Wintermar Offshore Marine Tbk.,2010-11-29,0,Utama,Active,2026-07-13 08:10:18
+WOMF.JK,Wahana Ottomitra Multiartha Tb,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+WSKT.JK,Waskita Karya (Persero) Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+WTON.JK,Wijaya Karya Beton Tbk.,2014-04-08,0,Utama,Active,2026-07-13 08:10:18
+YPAS.JK,Yanaprima Hastapersada Tbk,2008-03-05,0,Pengembangan,Active,2026-07-13 08:10:18
+YULE.JK,Yulie Sekuritas Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ZBRA.JK,Dosni Roha Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SHIP.JK,Sillo Maritime Perdana Tbk.,2016-06-16,0,Utama,Active,2026-07-13 08:10:18
+CASA.JK,Capital Financial Indonesia Tb,2016-07-19,0,Pengembangan,Active,2026-07-13 08:10:18
+DAYA.JK,Duta Intidaya Tbk.,2016-06-28,0,Pengembangan,Active,2026-07-13 08:10:18
+DPUM.JK,Dua Putra Utama Makmur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+IDPR.JK,Indonesia Pondasi Raya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+JGLE.JK,Graha Andrasentra Propertindo,2016-06-29,0,Pengembangan,Active,2026-07-13 08:10:18
+KINO.JK,Kino Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MARI.JK,Mahaka Radio Integra Tbk.,2016-02-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MKNT.JK,Mitra Komunikasi Nusantara Tbk,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MTRA.JK,Mitra Pemuda Tbk.,2016-02-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+OASA.JK,Maharaksa Biru Energi Tbk.,2016-07-18,0,Pengembangan,Active,2026-07-13 08:10:18
+POWR.JK,Cikarang Listrindo Tbk.,2016-06-14,0,Utama,Active,2026-07-13 08:10:18
+INCF.JK,Indo Komoditi Korpora Tbk.,2016-09-06,0,Pengembangan,Active,2026-07-13 08:10:18
+WSBP.JK,Waskita Beton Precast Tbk.,2016-09-20,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PBSA.JK,Paramita Bangun Sarana Tbk.,2016-09-28,0,Pengembangan,Active,2026-07-13 08:10:18
+PRDA.JK,Prodia Widyahusada Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+BOGA.JK,Apollo Global Interactive Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BRIS.JK,Bank Syariah Indonesia (Perser,N/A,0,Utama,Active,2026-07-13 08:10:18
+PORT.JK,Nusantara Pelabuhan Handal Tbk,2017-03-16,0,Utama,Active,2026-07-13 08:10:18
+CARS.JK,Industri dan Perdagangan Bintr,2017-04-10,0,Utama,Active,2026-07-13 08:10:18
+MINA.JK,Sanurhasta Mitra Tbk.,2017-04-28,0,Pengembangan,Active,2026-07-13 08:10:18
+CLEO.JK,Sariguna Primatirta Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TAMU.JK,Pelayaran Tamarin Samudra Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CSIS.JK,Cahayasakti Investindo Sukses,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+TGRA.JK,Terregra Asia Energy Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+FIRE.JK,Alfa Energi Investama Tbk.,2017-06-09,0,Pengembangan,Active,2026-07-13 08:10:18
+TOPS.JK,Totalindo Eka Persada Tbk.,2017-06-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KMTR.JK,Kirana Megatara Tbk.,2017-06-19,0,Pengembangan,Active,2026-07-13 08:10:18
+ARMY.JK,Armidian Karyatama Tbk.,2017-06-21,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MAPB.JK,MAP Boga Adiperkasa Tbk.,2017-06-21,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+WOOD.JK,Integra Indocabinet Tbk.,2017-06-21,0,Utama,Active,2026-07-13 08:10:18
+HRTA.JK,Hartadinata Abadi Tbk.,2017-06-21,0,Utama,Active,2026-07-13 08:10:18
+MABA.JK,Marga Abhinaya Abadi Tbk.,2017-06-22,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HOKI.JK,Buyung Poetra Sembada Tbk.,2017-06-22,0,Pengembangan,Active,2026-07-13 08:10:18
+MPOW.JK,Megapower Makmur Tbk.,2017-07-05,0,Pengembangan,Active,2026-07-13 08:10:18
+MARK.JK,Mark Dynamics Indonesia Tbk.,2017-07-12,0,Utama,Active,2026-07-13 08:10:18
+NASA.JK,Andalan Perkasa Abadi Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MDKI.JK,Emdeki Utama Tbk.,2017-09-25,0,Pengembangan,Active,2026-07-13 08:10:18
+BELL.JK,Trisula Textile Industries Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KIOS.JK,Kioson Komersial Indonesia Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+GMFI.JK,Garuda Maintenance Facility Ae,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MTWI.JK,Malacca Trust Wuwungan Insuran,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ZINC.JK,Kapuas Prima Coal Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MCAS.JK,M Cash Integrasi Tbk.,2017-11-01,0,Pengembangan,Active,2026-07-13 08:10:18
+PPRE.JK,PP Presisi Tbk.,2017-11-24,0,Pengembangan,Active,2026-07-13 08:10:18
+WEGE.JK,Wijaya Karya Bangunan Gedung T,2017-11-30,0,Pengembangan,Active,2026-07-13 08:10:18
+PSSI.JK,IMC Pelita Logistik Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+MORA.JK,Ekamas Mora Republik Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+DWGL.JK,Dwi Guna Laksana Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PBID.JK,Panca Budi Idaman Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+JMAS.JK,Asuransi Jiwa Syariah Jasa Mit,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+CAMP.JK,Campina Ice Cream Industry Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+IPCM.JK,Jasa Armada Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PCAR.JK,Prima Cakrawala Abadi Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LCKM.JK,LCK Global Kedaton Tbk.,2018-01-16,0,Pengembangan,Active,2026-07-13 08:10:18
+BOSS.JK,Borneo Olah Sarana Sukses Tbk.,2018-02-15,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HELI.JK,Jaya Trishindo Tbk.,2018-03-27,0,Pengembangan,Active,2026-07-13 08:10:18
+JSKY.JK,Sky Energy Indonesia Tbk.,2018-03-28,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+INPS.JK,Indah Prakasa Sentosa Tbk.,2018-04-06,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+GHON.JK,Gihon Telekomunikasi Indonesia,2018-04-09,0,Pengembangan,Active,2026-07-13 08:10:18
+TDPM.JK,Tianrong Chemicals Industry Tb,2018-04-09,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+DFAM.JK,Dafam Property Indonesia Tbk.,2018-04-27,0,Pengembangan,Active,2026-07-13 08:10:18
+NICK.JK,Charnic Capital Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BTPS.JK,Bank BTPN Syariah Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+SPTO.JK,Surya Pertiwi Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PRIM.JK,Royal Prima Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+HEAL.JK,Medikaloka Hermina Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TRUK.JK,Guna Timur Raya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PZZA.JK,Sarimelati Kencana Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+TUGU.JK,Asuransi Tugu Pratama Indonesi,N/A,0,Utama,Active,2026-07-13 08:10:18
+MSIN.JK,MNC Digital Entertainment Tbk.,2018-06-08,0,Utama,Active,2026-07-13 08:10:18
+SWAT.JK,Sriwahana Adityakarta Tbk.,2018-06-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TNCA.JK,Trimuda Nuansa Citra Tbk.,2018-06-28,0,Pengembangan,Active,2026-07-13 08:10:18
+MAPA.JK,Map Aktif Adiperkasa Tbk.,2018-07-05,0,Utama,Active,2026-07-13 08:10:18
+TCPI.JK,Transcoal Pacific Tbk.,2018-07-06,0,Pengembangan,Active,2026-07-13 08:10:18
+IPCC.JK,Indonesia Kendaraan Terminal T,2018-07-09,0,Utama,Active,2026-07-13 08:10:18
+RISE.JK,Jaya Sukses Makmur Sentosa Tbk,2018-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BPTR.JK,Batavia Prosperindo Trans Tbk.,2018-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+POLL.JK,Pollux Properties Indonesia Tb,2018-07-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+NFCX.JK,NFC Indonesia Tbk.,2018-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+MGRO.JK,Mahkota Group Tbk.,2018-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+NUSA.JK,Sinergi Megah Internusa Tbk.,2018-07-12,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+FILM.JK,MD Entertainment Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ANDI.JK,Andira Agro Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+LAND.JK,Trimitra Propertindo Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MOLI.JK,Madusari Murni Indah Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PANI.JK,Pantai Indah Kapuk Dua Tbk.,2018-09-18,0,Utama,Active,2026-07-13 08:10:18
+DIGI.JK,Arkadia Digital Media Tbk.,2018-09-18,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CITY.JK,Natura City Developments Tbk.,2018-09-28,0,Pengembangan,Active,2026-07-13 08:10:18
+SAPX.JK,Satria Antaran Prima Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SURE.JK,Super Energy Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+HKMU.JK,HK Metals Utama Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+MPRO.JK,Maha Properti Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DUCK.JK,Jaya Bersama Indo Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+GOOD.JK,Garudafood Putra Putri Jaya Tb,N/A,0,Utama,Active,2026-07-13 08:10:18
+SKRN.JK,Superkrane Mitra Utama Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+YELO.JK,Yelooo Integra Datanet Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+CAKK.JK,Cahayaputra Asa Keramik Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SATU.JK,Kota Satu Properti Tbk.,2018-11-05,0,Pengembangan,Active,2026-07-13 08:10:18
+SOSS.JK,Shield On Service Tbk.,2018-11-06,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+DEAL.JK,Dewata Freightinternational Tb,2018-11-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+POLA.JK,Pool Advista Finance Tbk.,2018-11-16,0,Pengembangan,Active,2026-07-13 08:10:18
+DIVA.JK,Distribusi Voucher Nusantara T,2018-11-27,0,Pengembangan,Active,2026-07-13 08:10:18
+LUCK.JK,Sentral Mitra Informatika Tbk.,2018-11-28,0,Pengembangan,Active,2026-07-13 08:10:18
+URBN.JK,Urban Jakarta Propertindo Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SOTS.JK,Satria Mega Kencana Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ZONE.JK,Mega Perintis Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PEHA.JK,Phapros Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+FOOD.JK,Sentra Food Indonesia Tbk.,2019-01-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BEEF.JK,Estika Tata Tiara Tbk.,2019-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+POLI.JK,Pollux Hotels Group Tbk.,2019-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+CLAY.JK,Citra Putra Realty Tbk.,2019-01-18,0,Pengembangan,Active,2026-07-13 08:10:18
+NATO.JK,Olympus Strategic Indonesia Tb,2019-01-18,0,Pengembangan,Active,2026-07-13 08:10:18
+JAYA.JK,Armada Berjaya Trans Tbk.,2019-02-21,0,Pengembangan,Active,2026-07-13 08:10:18
+COCO.JK,Wahana Interfood Nusantara Tbk,2019-03-20,0,Pengembangan,Active,2026-07-13 08:10:18
+MTPS.JK,Meta Epsi Tbk.,2019-04-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CPRI.JK,Capri Nusa Satu Properti Tbk.,2019-04-11,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+HRME.JK,Menteng Heritage Realty Tbk.,2019-04-12,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+POSA.JK,Bliss Properti Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+JAST.JK,Jasnita Telekomindo Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+FITT.JK,Hotel Fitra International Tbk.,2019-06-11,0,Pengembangan,Active,2026-07-13 08:10:18
+BOLA.JK,Bali Bintang Sejahtera Tbk.,2019-06-17,0,Utama,Active,2026-07-13 08:10:18
+CCSI.JK,Communication Cable Systems In,2019-06-18,0,Pengembangan,Active,2026-07-13 08:10:18
+SFAN.JK,Surya Fajar Capital Tbk.,2019-06-19,0,Pengembangan,Active,2026-07-13 08:10:18
+POLU.JK,Golden Flower Tbk.,2019-06-26,0,Pengembangan,Active,2026-07-13 08:10:18
+KJEN.JK,Krida Jaringan Nusantara Tbk.,2019-07-01,0,Pengembangan,Active,2026-07-13 08:10:18
+KAYU.JK,Darmi Bersaudara Tbk.,2019-07-04,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ITIC.JK,Indonesian Tobacco Tbk.,2019-07-04,0,Pengembangan,Active,2026-07-13 08:10:18
+PAMG.JK,Bima Sakti Pertiwi Tbk.,2019-07-05,0,Pengembangan,Active,2026-07-13 08:10:18
+IPTV.JK,MNC Vision Networks Tbk.,2019-07-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BLUE.JK,Berkah Prima Perkasa Tbk.,2019-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+ENVY.JK,Envy Technologies Indonesia Tb,2019-07-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+EAST.JK,Eastparc Hotel Tbk.,2019-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+LIFE.JK,MSIG Life Insurance Indonesia,2019-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+FUJI.JK,Fuji Finance Indonesia Tbk.,2019-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+KOTA.JK,DMS Propertindo Tbk.,2019-07-09,0,Utama,Active,2026-07-13 08:10:18
+INOV.JK,Inocycle Technology Group Tbk.,2019-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ARKA.JK,Arkha Jayanti Persada Tbk.,2019-07-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SMKL.JK,Satyamitra Kemas Lestari Tbk.,2019-07-11,0,Pengembangan,Active,2026-07-13 08:10:18
+HDIT.JK,Hensel Davest Indonesia Tbk.,2019-07-12,0,Pengembangan,Active,2026-07-13 08:10:18
+KEEN.JK,Kencana Energi Lestari Tbk.,2019-09-02,0,Utama,Active,2026-07-13 08:10:18
+BAPI.JK,Bhakti Agung Propertindo Tbk.,2019-09-16,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TFAS.JK,Telefast Indonesia Tbk.,2019-09-17,0,Pengembangan,Active,2026-07-13 08:10:18
+GGRP.JK,Gunung Raja Paksi Tbk.,2019-09-19,0,Pengembangan,Active,2026-07-13 08:10:18
+OPMS.JK,Optima Prima Metal Sinergi Tbk,2019-09-23,0,Pengembangan,Active,2026-07-13 08:10:18
+NZIA.JK,Nusantara Almazia Tbk.,2019-09-25,0,Pengembangan,Active,2026-07-13 08:10:18
+SLIS.JK,Gaya Abadi Sempurna Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PURE.JK,Trinitan Metals and Minerals T,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+IRRA.JK,Itama Ranoraya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DMMX.JK,Digital Mediatama Maxima Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SINI.JK,Singaraja Putra Tbk.,2019-11-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+WOWS.JK,Ginting Jaya Energi Tbk.,2019-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+ESIP.JK,Sinergi Inti Plastindo Tbk.,2019-11-14,0,Pengembangan,Active,2026-07-13 08:10:18
+TEBE.JK,Dana Brata Luhur Tbk.,2019-11-18,0,Utama,Active,2026-07-13 08:10:18
+KEJU.JK,Mulia Boga Raya Tbk.,2019-11-25,0,Utama,Active,2026-07-13 08:10:18
+PSGO.JK,Palma Serasih Tbk.,2019-11-25,0,Utama,Active,2026-07-13 08:10:18
+AGAR.JK,Asia Sejahtera Mina Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+IFSH.JK,Ifishdeco Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+REAL.JK,Repower Asia Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+IFII.JK,Indonesia Fibreboard Industry,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PMJS.JK,Putra Mandiri Jembar Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+UCID.JK,Uni-Charm Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+GLVA.JK,Galva Technologies Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PGJO.JK,Bahtera Bumi Raya Tbk.,2020-01-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+AMAR.JK,Bank Amar Indonesia Tbk.,2020-01-09,0,Utama,Active,2026-07-13 08:10:18
+CSRA.JK,Cisadane Sawit Raya Tbk.,2020-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+INDO.JK,Royalindo Investa Wijaya Tbk.,2020-01-13,0,Pengembangan,Active,2026-07-13 08:10:18
+AMOR.JK,Ashmore Asset Management Indon,2020-01-14,0,Pengembangan,Active,2026-07-13 08:10:18
+TRIN.JK,Perintis Triniti Properti Tbk.,2020-01-15,0,Pengembangan,Active,2026-07-13 08:10:18
+DMND.JK,Diamond Food Indonesia Tbk.,2020-01-22,0,Utama,Active,2026-07-13 08:10:18
+PURA.JK,Putra Rajawali Kencana Tbk.,2020-01-29,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PTPW.JK,Pratama Widya Tbk.,2020-02-07,0,Pengembangan,Active,2026-07-13 08:10:18
+TAMA.JK,Lancartama Sejati Tbk.,2020-02-10,0,Pengembangan,Active,2026-07-13 08:10:18
+IKAN.JK,Era Mandiri Cemerlang Tbk.,2020-02-12,0,Pengembangan,Active,2026-07-13 08:10:18
+SAMF.JK,Saraswanti Anugerah Makmur Tbk,2020-03-31,0,Utama,Active,2026-07-13 08:10:18
+SBAT.JK,Sejahtera Bintang Abadi Textil,2020-04-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KBAG.JK,Karya Bersama Anugerah Tbk.,2020-04-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+CBMF.JK,Cahaya Bintang Medan Tbk.,2020-04-09,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+RONY.JK,Aracord Nusantara Group Tbk.,2020-04-09,0,Pengembangan,Active,2026-07-13 08:10:18
+CSMI.JK,Cipta Selera Murni Tbk.,2020-04-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BBSS.JK,Bumi Benowo Sukses Sejahtera T,2020-04-15,0,Pengembangan,Active,2026-07-13 08:10:18
+BHAT.JK,Bhakti Multi Artha Tbk.,2020-04-15,0,Pengembangan,Active,2026-07-13 08:10:18
+CASH.JK,Cashlez Worldwide Indonesia Tb,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+TECH.JK,Indosterling Technomedia Tbk.,2020-06-04,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+EPAC.JK,Megalestari Epack Sentosaraya,2020-07-01,0,Pengembangan,Active,2026-07-13 08:10:18
+UANG.JK,Pakuan Tbk.,2020-07-06,0,Pengembangan,Active,2026-07-13 08:10:18
+PGUN.JK,Pradiksi Gunatama Tbk.,2020-07-07,0,Pengembangan,Active,2026-07-13 08:10:18
+SOFA.JK,Solusi Environment Asia Tbk.,2020-07-07,0,Akselerasi,Active,2026-07-13 08:10:18
+PPGL.JK,Prima Globalindo Logistik Tbk.,2020-07-20,0,Akselerasi,Active,2026-07-13 08:10:18
+TOYS.JK,Sunindo Adipersada Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SGER.JK,Sumber Global Energy Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+TRJA.JK,Transkon Jaya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PNGO.JK,Pinago Utama Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SCNP.JK,Selaras Citra Nusantara Perkas,2020-09-07,0,Pengembangan,Active,2026-07-13 08:10:18
+BBSI.JK,Krom Bank Indonesia Tbk.,2020-09-07,0,Utama,Active,2026-07-13 08:10:18
+KMDS.JK,Kurniamitra Duta Sentosa Tbk.,2020-09-07,0,Pengembangan,Active,2026-07-13 08:10:18
+PURI.JK,Puri Global Sukses Tbk.,2020-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+SOHO.JK,Soho Global Health Tbk.,2020-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+HOMI.JK,Grand House Mulia Tbk.,2020-09-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ROCK.JK,Rockfields Properti Indonesia,2020-09-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ENZO.JK,Morenzo Abadi Perkasa Tbk.,2020-09-14,0,Pengembangan,Active,2026-07-13 08:10:18
+PLAN.JK,Planet Properindo Jaya Tbk.,2020-09-15,0,Akselerasi,Active,2026-07-13 08:10:18
+PTDU.JK,Djasa Ubersakti Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ATAP.JK,Trimitra Prawara Goldland Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+VICI.JK,Victoria Care Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+PMMP.JK,Panca Mitra Multiperdana Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BANK.JK,Bank Aladin Syariah Tbk.,2021-02-01,0,Pengembangan,Active,2026-07-13 08:10:18
+WMUU.JK,Widodo Makmur Unggas Tbk.,2021-02-02,0,Pengembangan,Active,2026-07-13 08:10:18
+EDGE.JK,Indointernet Tbk.,2021-02-08,0,Pengembangan,Active,2026-07-13 08:10:18
+UNIQ.JK,Ulima Nitra Tbk.,2021-03-08,0,Pengembangan,Active,2026-07-13 08:10:18
+BEBS.JK,Berkah Beton Sadaya Tbk.,2021-03-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+SNLK.JK,Sunter Lakeside Hotel Tbk.,2021-03-29,0,Pengembangan,Active,2026-07-13 08:10:18
+ZYRX.JK,Zyrexindo Mandiri Buana Tbk.,2021-03-30,0,Pengembangan,Active,2026-07-13 08:10:18
+LFLO.JK,Imago Mulia Persada Tbk.,2021-04-07,0,Akselerasi,Active,2026-07-13 08:10:18
+FIMP.JK,Fimperkasa Utama Tbk.,2021-04-09,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TAPG.JK,Triputra Agro Persada Tbk.,2021-04-12,0,Utama,Active,2026-07-13 08:10:18
+NPGF.JK,Nusa Palapa Gemilang Tbk.,2021-04-14,0,Pengembangan,Active,2026-07-13 08:10:18
+LUCY.JK,Lima Dua Lima Tiga Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+ADCP.JK,Adhi Commuter Properti Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+HOPE.JK,Harapan Duta Pertiwi Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MGLV.JK,Panca Anugrah Wisesa Tbk.,2021-06-08,0,Akselerasi,Active,2026-07-13 08:10:18
+TRUE.JK,Triniti Dinamik Tbk.,2021-06-10,0,Pengembangan,Active,2026-07-13 08:10:18
+LABA.JK,Green Power Group Tbk.,2021-06-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ARCI.JK,Archi Indonesia Tbk.,2021-06-28,0,Pengembangan,Active,2026-07-13 08:10:18
+IPAC.JK,Era Graharealty Tbk.,2021-06-30,0,Akselerasi,Active,2026-07-13 08:10:18
+MASB.JK,Bank Multiarta Sentosa Tbk.,2021-06-30,0,Utama,Active,2026-07-13 08:10:18
+BMHS.JK,Bundamedik Tbk.,2021-07-06,0,Utama,Active,2026-07-13 08:10:18
+FLMC.JK,Falmaco Nonwoven Industri Tbk.,2021-07-08,0,Akselerasi,Active,2026-07-13 08:10:18
+NICL.JK,PAM Mineral Tbk.,2021-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+UVCR.JK,Trimegah Karya Pratama Tbk.,2021-07-27,0,Pengembangan,Active,2026-07-13 08:10:18
+BUKA.JK,Bukalapak.com Tbk.,N/A,0,Ekonomi Baru,Active,2026-07-13 08:10:18
+HAIS.JK,Hasnur Internasional Shipping,2021-09-01,0,Pengembangan,Active,2026-07-13 08:10:18
+OILS.JK,Indo Oil Perkasa Tbk.,2021-09-06,0,Pengembangan,Active,2026-07-13 08:10:18
+GPSO.JK,Geoprima Solusi Tbk.,2021-09-06,0,Pengembangan,Active,2026-07-13 08:10:18
+MCOL.JK,Prima Andalan Mandiri Tbk.,2021-09-07,0,Utama,Active,2026-07-13 08:10:18
+RSGK.JK,Kedoya Adyaraya Tbk.,2021-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+RUNS.JK,Global Sukses Solusi Tbk.,2021-09-08,0,Akselerasi,Active,2026-07-13 08:10:18
+SBMA.JK,Surya Biru Murni Acetylene Tbk,2021-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+CMNT.JK,Cemindo Gemilang Tbk.,2021-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+GTSI.JK,GTS Internasional Tbk.,2021-09-08,0,Pengembangan,Active,2026-07-13 08:10:18
+IDEA.JK,Idea Indonesia Akademi Tbk.,2021-09-09,0,Akselerasi,Active,2026-07-13 08:10:18
+KUAS.JK,Ace Oldfields Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BOBA.JK,Formosa Ingredient Factory Tbk,2021-11-01,0,Pengembangan,Active,2026-07-13 08:10:18
+MTEL.JK,Dayamitra Telekomunikasi Tbk.,2021-11-22,0,Utama,Active,2026-07-13 08:10:18
+DEPO.JK,Caturkarda Depo Bangunan Tbk.,2021-11-25,0,Pengembangan,Active,2026-07-13 08:10:18
+BINO.JK,Perma Plasindo Tbk.,2021-11-25,0,Pengembangan,Active,2026-07-13 08:10:18
+CMRY.JK,Cisarua Mountain Dairy Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+WGSH.JK,Wira Global Solusi Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+TAYS.JK,Jaya Swarasa Agung Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+WMPP.JK,Widodo Makmur Perkasa Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+RMKE.JK,RMK Energy Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+OBMD.JK,OBM Drilchem Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+AVIA.JK,Avia Avian Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+IPPE.JK,Indo Pureco Pratama Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+NASI.JK,Wahana Inti Makmur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BSML.JK,Bintang Samudera Mandiri Lines,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DRMA.JK,Dharma Polimetal Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+ADMR.JK,Alamtri Minerals Indonesia Tbk,2022-01-03,0,Utama,Active,2026-07-13 08:10:18
+SEMA.JK,Semacom Integrated Tbk.,2022-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ASLC.JK,Autopedia Sukses Lestari Tbk.,2022-01-25,0,Pengembangan,Active,2026-07-13 08:10:18
+NETV.JK,MDTV Media Technologies Tbk.,2022-01-26,0,Pengembangan,Active,2026-07-13 08:10:18
+BAUT.JK,Mitra Angkasa Sejahtera Tbk.,2022-01-28,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ENAK.JK,Champ Resto Indonesia Tbk.,2022-02-08,0,Pengembangan,Active,2026-07-13 08:10:18
+NTBK.JK,Nusatama Berkah Tbk.,2022-02-09,0,Pengembangan,Active,2026-07-13 08:10:18
+SMKM.JK,Sumber Mas Konstruksi Tbk.,2022-03-09,0,Akselerasi,Active,2026-07-13 08:10:18
+STAA.JK,Sumber Tani Agung Resources Tb,2022-03-10,0,Utama,Active,2026-07-13 08:10:18
+NANO.JK,Nanotech Indonesia Global Tbk.,2022-03-10,0,Akselerasi,Active,2026-07-13 08:10:18
+BIKE.JK,Sepeda Bersama Indonesia Tbk.,2022-03-21,0,Pengembangan,Active,2026-07-13 08:10:18
+WIRG.JK,WIR ASIA Tbk.,2022-04-04,0,Pengembangan,Active,2026-07-13 08:10:18
+SICO.JK,Sigma Energy Compressindo Tbk.,2022-04-08,0,Pengembangan,Active,2026-07-13 08:10:18
+GOTO.JK,GoTo Gojek Tokopedia Tbk.,2022-04-11,0,Pengembangan,Active,2026-07-13 08:10:18
+TLDN.JK,Teladan Prima Agro Tbk.,2022-04-12,0,Utama,Active,2026-07-13 08:10:18
+MTMH.JK,Murni Sadar Tbk.,2022-04-20,0,Utama,Active,2026-07-13 08:10:18
+WINR.JK,Winner Nusantara Jaya Tbk.,2022-04-25,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+IBOS.JK,Indo Boga Sukses Tbk.,2022-04-25,0,Akselerasi,Active,2026-07-13 08:10:18
+OLIV.JK,Oscar Mitra Sukses Sejahtera T,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+ASHA.JK,Cilacap Samudera Fishing Indus,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SWID.JK,Saraswanti Indoland Developmen,2022-07-07,0,Pengembangan,Active,2026-07-13 08:10:18
+TRGU.JK,Cerestar Indonesia Tbk.,2022-07-08,0,Utama,Active,2026-07-13 08:10:18
+ARKO.JK,Arkora Hydro Tbk.,2022-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+CHEM.JK,Chemstar Indonesia Tbk.,2022-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+DEWI.JK,Dewi Shri Farmindo Tbk.,2022-07-18,0,Pengembangan,Active,2026-07-13 08:10:18
+AXIO.JK,Tera Data Indonusa Tbk.,2022-07-20,0,Pengembangan,Active,2026-07-13 08:10:18
+KRYA.JK,Bangun Karya Perkasa Jaya Tbk.,2022-07-25,0,Pengembangan,Active,2026-07-13 08:10:18
+HATM.JK,Habco Trans Maritima Tbk.,2022-07-26,0,Utama,Active,2026-07-13 08:10:18
+RCCC.JK,Utama Radar Cahaya Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+GULA.JK,Aman Agrindo Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+JARR.JK,Jhonlin Agro Raya Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+AMMS.JK,Agung Menjangan Mas Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+RAFI.JK,Sari Kreasi Boga Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+KKES.JK,Kusuma Kemindo Sentosa Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+ELPI.JK,Pelayaran Nasional Ekalya Purn,N/A,0,Utama,Active,2026-07-13 08:10:18
+EURO.JK,Estee Gold Feet Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+KLIN.JK,Klinko Karya Imaji Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+TOOL.JK,Rohartindo Nusantara Luas Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BUAH.JK,Segar Kumala Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+CRAB.JK,Toba Surimi Industries Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MEDS.JK,Hetzer Medical Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+COAL.JK,Black Diamond Resources Tbk.,2022-09-07,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PRAY.JK,Famon Awal Bros Sedaya Tbk.,2022-11-08,0,Utama,Active,2026-07-13 08:10:18
+CBUT.JK,Citra Borneo Utama Tbk.,2022-11-08,0,Utama,Active,2026-07-13 08:10:18
+BELI.JK,Global Digital Niaga Tbk.,2022-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+MKTR.JK,Menthobi Karyatama Raya Tbk.,2022-11-08,0,Utama,Active,2026-07-13 08:10:18
+OMED.JK,Jayamas Medica Industri Tbk.,2022-11-08,0,Utama,Active,2026-07-13 08:10:18
+BSBK.JK,Wulandari Bangun Laksana Tbk.,2022-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+PDPP.JK,Primadaya Plastisindo Tbk.,2022-11-09,0,Pengembangan,Active,2026-07-13 08:10:18
+KDTN.JK,Puri Sentul Permai Tbk.,2022-11-09,0,Pengembangan,Active,2026-07-13 08:10:18
+ZATA.JK,Bersama Zatta Jaya Tbk.,2022-11-10,0,Pengembangan,Active,2026-07-13 08:10:18
+NINE.JK,Techno9 Indonesia Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+MMIX.JK,Multi Medika Internasional Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PADA.JK,Personel Alih Daya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ISAP.JK,Isra Presisi Indonesia Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+VTNY.JK,Venteny Fortuna International,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SOUL.JK,Mitra Tirta Buwana Tbk.,2023-01-06,0,Akselerasi,Active,2026-07-13 08:10:18
+ELIT.JK,Data Sinergitama Jaya Tbk.,2023-01-06,0,Pengembangan,Active,2026-07-13 08:10:18
+BEER.JK,Jobubu Jarum Minahasa Tbk.,2023-01-06,0,Pengembangan,Active,2026-07-13 08:10:18
+CBPE.JK,Citra Buana Prasida Tbk.,2023-01-06,0,Pengembangan,Active,2026-07-13 08:10:18
+SUNI.JK,Sunindo Pratama Tbk.,2023-01-09,0,Utama,Active,2026-07-13 08:10:18
+CBRE.JK,Cakra Buana Resources Energi T,2023-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+WINE.JK,Hatten Bali Tbk.,2023-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+BMBL.JK,Lavender Bina Cendikia Tbk.,2023-01-11,0,Akselerasi,Active,2026-07-13 08:10:18
+PEVE.JK,Penta Valent Tbk.,2023-01-24,0,Pengembangan,Active,2026-07-13 08:10:18
+LAJU.JK,Jasa Berdikari Logistics Tbk.,2023-01-27,0,Pengembangan,Active,2026-07-13 08:10:18
+FWCT.JK,Wijaya Cahaya Timber Tbk.,2023-02-01,0,Pengembangan,Active,2026-07-13 08:10:18
+NAYZ.JK,Hassana Boga Sejahtera Tbk.,2023-02-06,0,Akselerasi,Active,2026-07-13 08:10:18
+IRSX.JK,Folago Global Nusantara Tbk.,2023-02-07,0,Pengembangan,Active,2026-07-13 08:10:18
+PACK.JK,Abadi Nusantara Hijau Investam,2023-02-08,0,Akselerasi,Active,2026-07-13 08:10:18
+VAST.JK,Vastland Indonesia Tbk.,2023-02-08,0,Pengembangan,Active,2026-07-13 08:10:18
+CHIP.JK,Pelita Teknologi Global Tbk.,2023-02-08,0,Akselerasi,Active,2026-07-13 08:10:18
+HALO.JK,Haloni Jane Tbk.,2023-02-08,0,Pengembangan,Active,2026-07-13 08:10:18
+KING.JK,Hoffmen Cleanindo Tbk.,2023-02-16,0,Akselerasi,Active,2026-07-13 08:10:18
+PGEO.JK,Pertamina Geothermal Energy Tb,2023-02-24,0,Utama,Active,2026-07-13 08:10:18
+FUTR.JK,Futura Energi Global Tbk.,2023-02-27,0,Pengembangan,Active,2026-07-13 08:10:18
+HILL.JK,Hillcon Tbk.,2023-03-01,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+BDKR.JK,Berdikari Pondasi Perkasa Tbk.,2023-03-03,0,Utama,Active,2026-07-13 08:10:18
+PTMP.JK,Mitra Pack Tbk.,2023-03-06,0,Pengembangan,Active,2026-07-13 08:10:18
+SAGE.JK,Saptausaha Gemilangindah Tbk.,2023-03-08,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+TRON.JK,Teknologi Karya Digital Nusa T,2023-03-08,0,Pengembangan,Active,2026-07-13 08:10:18
+CUAN.JK,Petrindo Jaya Kreasi Tbk.,2023-03-08,0,Utama,Active,2026-07-13 08:10:18
+NSSS.JK,Nusantara Sawit Sejahtera Tbk.,2023-03-10,0,Pengembangan,Active,2026-07-13 08:10:18
+GTRA.JK,Grahaprima Suksesmandiri Tbk.,2023-03-30,0,Pengembangan,Active,2026-07-13 08:10:18
+HAJJ.JK,Arsy Buana Travelindo Tbk.,2023-04-05,0,Akselerasi,Active,2026-07-13 08:10:18
+JATI.JK,Informasi Teknologi Indonesia,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+TYRE.JK,King Tire Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MPXL.JK,MPX Logistics International Tb,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SMIL.JK,Sarana Mitra Luas Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+KLAS.JK,Pelayaran Kurnia Lautan Semest,2023-06-12,0,Pengembangan,Active,2026-07-13 08:10:18
+MAXI.JK,Maxindo Karya Anugerah Tbk.,2023-06-12,0,Pengembangan,Active,2026-07-13 08:10:18
+VKTR.JK,VKTR Teknologi Mobilitas Tbk.,2023-06-19,0,Pengembangan,Active,2026-07-13 08:10:18
+RELF.JK,Graha Mitra Asia Tbk.,2023-06-22,0,Akselerasi,Active,2026-07-13 08:10:18
+AMMN.JK,Amman Mineral Internasional Tb,2023-07-07,0,Utama,Active,2026-07-13 08:10:18
+CRSN.JK,Carsurin Tbk.,2023-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+GRPM.JK,Graha Prima Mentari Tbk.,2023-07-10,0,Akselerasi,Active,2026-07-13 08:10:18
+WIDI.JK,Widiant Jaya Krenindo Tbk.,2023-07-10,0,Akselerasi,Active,2026-07-13 08:10:18
+TGUK.JK,Platinum Wahab Nusantara Tbk.,2023-07-10,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+INET.JK,Sinergi Inti Andalan Prima Tbk,2023-07-24,0,Pengembangan,Active,2026-07-13 08:10:18
+MAHA.JK,Mandiri Herindo Adiperkasa Tbk,2023-07-25,0,Utama,Active,2026-07-13 08:10:18
+RMKO.JK,Royaltama Mulia Kontraktorindo,2023-07-31,0,Pengembangan,Active,2026-07-13 08:10:18
+CNMA.JK,Nusantara Sejahtera Raya Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+FOLK.JK,Multi Garam Utama Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+HBAT.JK,Minahasa Membangun Hebat Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+GRIA.JK,Ingria Pratama Capitalindo Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PPRI.JK,Paperocks Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ERAL.JK,Sinar Eka Selaras Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+CYBR.JK,ITSEC Asia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MUTU.JK,Mutuagung Lestari Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LMAX.JK,Lupromax Pelumas Indonesia Tbk,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+HUMI.JK,Humpuss Maritim Internasional,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+MSIE.JK,Multisarana Intan Eduka Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+RSCH.JK,Charlie Hospital Semarang Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BABY.JK,Multitrend Indo Tbk.,2023-09-07,0,Pengembangan,Active,2026-07-13 08:10:18
+AEGS.JK,Anugerah Spareparts Sejahtera,2023-09-11,0,Akselerasi,Active,2026-07-13 08:10:18
+IOTF.JK,Sumber Sinergi Makmur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KOCI.JK,Kokoh Exa Nusantara Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PTPS.JK,Pulau Subur Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BREN.JK,Barito Renewables Energy Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+STRK.JK,Lovina Beach Brewery Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+KOKA.JK,Koka Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+LOPI.JK,Logisticsplus International Tb,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+UDNG.JK,Agro Bahari Nusantara Tbk.,N/A,0,Akselerasi,Active,2026-07-13 08:10:18
+RGAS.JK,Kian Santang Muliatama Tbk.,2023-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+MSTI.JK,Mastersystem Infotama Tbk.,2023-11-08,0,Utama,Active,2026-07-13 08:10:18
+IKPM.JK,Ikapharmindo Putramas Tbk.,2023-11-08,0,Pengembangan,Active,2026-07-13 08:10:18
+AYAM.JK,Janu Putra Sejahtera Tbk.,2023-11-30,0,Pengembangan,Active,2026-07-13 08:10:18
+SURI.JK,Maja Agung Latexindo Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ASLI.JK,Asri Karya Lestari Tbk.,2024-01-05,0,Pengembangan,Active,2026-07-13 08:10:18
+GRPH.JK,Griptha Putra Persada Tbk.,2024-01-17,0,Pengembangan,Active,2026-07-13 08:10:18
+SMGA.JK,Sumber Mineral Global Abadi Tb,2024-01-30,0,Pengembangan,Active,2026-07-13 08:10:18
+UNTD.JK,Terang Dunia Internusa Tbk.,2024-02-07,0,Pengembangan,Active,2026-07-13 08:10:18
+TOSK.JK,Topindo Solusi Komunika Tbk.,2024-02-07,0,Pengembangan,Active,2026-07-13 08:10:18
+MPIX.JK,Mitra Pedagang Indonesia Tbk.,2024-02-07,0,Pengembangan,Active,2026-07-13 08:10:18
+ALII.JK,Ancara Logistics Indonesia Tbk,2024-02-07,0,Utama,Active,2026-07-13 08:10:18
+MKAP.JK,Multikarya Asia Pasifik Raya T,2024-02-12,0,Pengembangan,Active,2026-07-13 08:10:18
+MEJA.JK,Harta Djaya Karya Tbk.,2024-02-12,0,Akselerasi,Active,2026-07-13 08:10:18
+LIVE.JK,Homeco Victoria Makmur Tbk.,2024-02-12,0,Pengembangan,Active,2026-07-13 08:10:18
+HYGN.JK,Ecocare Indo Pasifik Tbk.,2024-02-13,0,Pengembangan,Active,2026-07-13 08:10:18
+BAIK.JK,Bersama Mencapai Puncak Tbk.,2024-02-15,0,Pengembangan,Active,2026-07-13 08:10:18
+VISI.JK,Satu Visi Putra Tbk.,2024-02-27,0,Pengembangan,Active,2026-07-13 08:10:18
+AREA.JK,Dunia Virtual Online Tbk.,2024-04-01,0,Pengembangan,Active,2026-07-13 08:10:18
+MHKI.JK,Multi Hanna Kreasindo Tbk.,2024-04-16,0,Pengembangan,Active,2026-07-13 08:10:18
+ATLA.JK,Atlantis Subsea Indonesia Tbk.,2024-04-16,0,Pengembangan,Active,2026-07-13 08:10:18
+DATA.JK,Remala Abadi Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SOLA.JK,Xolare RCR Energy Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+BATR.JK,Benteng Api Technic Tbk.,2024-06-10,0,Pengembangan,Active,2026-07-13 08:10:18
+SPRE.JK,Soraya Berjaya Indonesia Tbk.,2024-07-03,0,Akselerasi,Active,2026-07-13 08:10:18
+PART.JK,Cipta Perdana Lancar Tbk.,2024-07-05,0,Pengembangan,Active,2026-07-13 08:10:18
+GOLF.JK,Intra Golflink Resorts Tbk.,2024-07-08,0,Utama,Active,2026-07-13 08:10:18
+ISEA.JK,Indo American Seafoods Tbk.,2024-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+BLES.JK,Superior Prima Sukses Tbk.,2024-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+GUNA.JK,Gunanusa Eramandiri Tbk.,2024-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+LABS.JK,UBC Medical Indonesia Tbk.,2024-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+DOSS.JK,Global Sukses Digital Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+NEST.JK,Esta Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+PTMR.JK,Master Print Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+VERN.JK,Verona Indah Pictures Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+DAAZ.JK,Daaz Bara Lestari Tbk.,2024-11-11,0,Utama,Active,2026-07-13 08:10:18
+BOAT.JK,Newport Marine Services Tbk.,2024-11-12,0,Pengembangan,Active,2026-07-13 08:10:18
+NAIK.JK,Adiwarna Anugerah Abadi Tbk.,2024-11-13,0,Pengembangan,Active,2026-07-13 08:10:18
+AADI.JK,Adaro Andalan Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+MDIY.JK,Daya Intiguna Yasa Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+KSIX.JK,Kentanix Supra International T,2025-01-08,0,Pengembangan,Active,2026-07-13 08:10:18
+RATU.JK,Raharja Energi Cepu Tbk.,2025-01-08,0,Pengembangan,Active,2026-07-13 08:10:18
+YOII.JK,Asuransi Digital Bersama Tbk.,2025-01-08,0,Pengembangan,Active,2026-07-13 08:10:18
+HGII.JK,Hero Global Investment Tbk.,2025-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BRRC.JK,Raja Roti Cemerlang Tbk.,2025-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+DGWG.JK,Delta Giri Wacana Tbk.,2025-01-13,0,Utama,Active,2026-07-13 08:10:18
+CBDK.JK,Bangun Kosambi Sukses Tbk.,2025-01-13,0,Utama,Active,2026-07-13 08:10:18
+OBAT.JK,Brigit Biofarmaka Teknologi Tb,2025-01-13,0,Pengembangan,Active,2026-07-13 08:10:18
+MINE.JK,Sinar Terang Mandiri Tbk.,2025-03-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ASPR.JK,Asia Pramulia Tbk.,2025-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+PSAT.JK,Pancaran Samudera Transport Tb,2025-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+COIN.JK,Indokripto Koin Semesta Tbk.,2025-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+CDIA.JK,Chandra Daya Investasi Tbk.,2025-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BLOG.JK,Trimitra Trans Persada Tbk.,2025-07-10,0,Utama,Active,2026-07-13 08:10:18
+MERI.JK,Merry Riana Edukasi Tbk.,2025-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+KAQI.JK,Jantra Grupo Indonesia Tbk.,2025-03-10,0,Pengembangan,Active,2026-07-13 08:10:18
+YUPI.JK,Yupi Indo Jelly Gum Tbk.,2025-03-25,0,Utama,Active,2026-07-13 08:10:18
+FORE.JK,Fore Kopi Indonesia Tbk.,2025-04-14,0,Pengembangan,Active,2026-07-13 08:10:18
+MDLA.JK,Medela Potentia Tbk.,2025-04-15,0,Utama,Active,2026-07-13 08:10:18
+DKHH.JK,Cipta Sarana Medika Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+AYLS.JK,Arkayana Lestari Grup Tbk.,2020-02-12,0,Pengembangan,Active,2026-07-13 08:10:18
+DADA.JK,Diamond Citra Propertindo Tbk.,2020-02-14,0,Pengembangan,Active,2026-07-13 08:10:18
+ASPI.JK,Andalan Sakti Primaindo Tbk.,2020-02-17,0,Pengembangan,Active,2026-07-13 08:10:18
+ESTA.JK,Esta Multi Usaha Tbk.,2020-03-09,0,Pengembangan,Active,2026-07-13 08:10:18
+BESS.JK,Batulicin Nusantara Maritim Tb,2020-03-09,0,Pengembangan,Active,2026-07-13 08:10:18
+AMAN.JK,Makmur Berkah Amanda Tbk.,2020-03-13,0,Pengembangan,Active,2026-07-13 08:10:18
+CARE.JK,Metro Healthcare Indonesia Tbk,2020-03-13,0,Pengembangan,Active,2026-07-13 08:10:18
+PIPA.JK,Multi Makmur Lemindo Tbk.,2023-04-10,0,Pengembangan,Active,2026-07-13 08:10:18
+NCKL.JK,Trimegah Bangun Persada Tbk.,2023-04-12,0,Pengembangan,Active,2026-07-13 08:10:18
+MENN.JK,Menn Teknologi Indonesia Tbk.,2023-04-18,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+AWAN.JK,Era Digital Media Tbk.,2023-04-18,0,Pengembangan,Active,2026-07-13 08:10:18
+MBMA.JK,Merdeka Battery Materials Tbk.,2023-04-18,0,Utama,Active,2026-07-13 08:10:18
+RAAM.JK,Tripar Multivision Plus Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+DOOH.JK,Era Media Sejahtera Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+CGAS.JK,Citra Nusantara Gemilang Tbk.,2024-01-08,0,Pengembangan,Active,2026-07-13 08:10:18
+NICE.JK,Adhi Kartiko Pratama Tbk.,2024-01-09,0,Pengembangan,Active,2026-07-13 08:10:18
+MSJA.JK,Multi Spunindo Jaya Tbk.,2024-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+SMLE.JK,Sinergi Multi Lestarindo Tbk.,2024-01-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ACRO.JK,Samcro Hyosung Adilestari Tbk.,2024-01-11,0,Pengembangan,Active,2026-07-13 08:10:18
+MANG.JK,Manggung Polahraya Tbk.,2024-01-11,0,Akselerasi,Active,2026-07-13 08:10:18
+WIFI.JK,Solusi Sinergi Digital Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+FAPA.JK,FAP Agri Tbk.,2021-01-04,0,Pengembangan,Active,2026-07-13 08:10:18
+DCII.JK,DCI Indonesia Tbk.,2021-01-06,0,Pengembangan,Active,2026-07-13 08:10:18
+KETR.JK,Ketrosden Triasmitra Tbk.,2021-01-11,0,Pengembangan,Active,2026-07-13 08:10:18
+DGNS.JK,Diagnos Laboratorium Utama Tbk,2021-01-15,0,Pengembangan,Active,2026-07-13 08:10:18
+UFOE.JK,Damai Sejahtera Abadi Tbk.,2021-02-01,0,Pengembangan,Active,2026-07-13 08:10:18
+CHEK.JK,Diastika Biotekindo Tbk.,2025-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+PMUI.JK,Prima Multi Usaha Indonesia Tb,2025-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+EMAS.JK,Merdeka Gold Resources Tbk.,2025-09-23,0,Pengembangan,Active,2026-07-13 08:10:18
+PJHB.JK,Pelayaran Jaya Hidup Baru Tbk.,2025-11-06,0,Pengembangan,Active,2026-07-13 08:10:18
+RLCO.JK,Abadi Lestari Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+SUPA.JK,Super Bank Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+WBSA.JK,BSA Logistics Indonesia Tbk.,2026-04-10,0,Pengembangan,Active,2026-07-13 08:10:18
+JECX.JK,Nitrasanata Dharma Tbk.,2026-07-07,0,Utama,Active,2026-07-13 08:10:18
+JELI.JK,Niramas Utama Tbk.,2026-07-07,0,Pengembangan,Active,2026-07-13 08:10:18
+EMMI.JK,Esa Medika Mandiri Tbk.,2026-07-08,0,Pengembangan,Active,2026-07-13 08:10:18
+BACH.JK,Bach Multi Global Tbk.,2026-07-08,0,Utama,Active,2026-07-13 08:10:18
+PRDL.JK,Prodia Diagnostic Line Tbk.,2026-07-09,0,Pengembangan,Active,2026-07-13 08:10:18
+RANS.JK,Rans Entertainmen Indonesia Tb,2026-07-10,0,Pengembangan,Active,2026-07-13 08:10:18
+ADMF.JK,Adira Dinamika Multi Finance T,2004-03-31,0,Pengembangan,Active,2026-07-13 08:10:18
+ADMG.JK,Polychem Indonesia Tbk,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+ADRO.JK,Alamtri Resources Indonesia Tb,2008-07-16,0,Utama,Active,2026-07-13 08:10:18
+AGII.JK,Samator Indo Gas Tbk.,2016-09-28,0,Pengembangan,Active,2026-07-13 08:10:18
+AGRO.JK,Bank Raya Indonesia Tbk.,N/A,0,Utama,Active,2026-07-13 08:10:18
+AGRS.JK,Bank IBK Indonesia Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+AHAP.JK,Asuransi Harta Aman Pratama Tb,1990-09-14,0,Pengembangan,Active,2026-07-13 08:10:18
+AIMS.JK,Artha Mahiya Investama Tbk.,2001-07-20,0,Pengembangan,Active,2026-07-13 08:10:18
+PNSE.JK,Pudjiadi & Sons Tbk.,N/A,0,Pengembangan,Active,2026-07-13 08:10:18
+POLY.JK,Asia Pacific Fibers Tbk,1991-03-12,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+POOL.JK,Pool Advista Indonesia Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
+PPRO.JK,PP Properti Tbk.,N/A,0,Pemantauan Khusus,Active,2026-07-13 08:10:18
