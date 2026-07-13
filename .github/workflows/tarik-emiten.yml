@@ -12,12 +12,11 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    # 2. Setup Python
+    # 2. Setup Python (Baris cache DIHAPUS agar tidak error)
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        cache: 'pip'
 
     # 3. Install library yang dibutuhkan (pandas dan openpyxl untuk baca Excel)
     - name: Install Dependencies
