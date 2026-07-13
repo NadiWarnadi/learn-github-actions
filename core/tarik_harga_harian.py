@@ -45,11 +45,9 @@ def dummy_visit(session):
     """Lakukan kunjungan tiruan ke homepage dan saham acak untuk mendapatkan cookies."""
     logger.info("🌐 Melakukan dummy visit ke Yahoo Finance...")
     
-    # 1. Kunjungi halaman utama
     session.get("https://finance.yahoo.com/", headers=BASE_HEADERS)
     time.sleep(random.uniform(2.0, 4.0))
     
-    # 2. Kunjungi halaman saham populer (seolah-olah browsing)
     sample_tickers = ["AAPL", "GOOGL", "MSFT", "TSLA", "AMZN", "NVDA", "META"]
     chosen = random.choice(sample_tickers)
     headers_ticker = BASE_HEADERS.copy()
@@ -60,10 +58,7 @@ def dummy_visit(session):
     logger.info(f"✅ Dummy visit selesai (mengunjungi {chosen})")
 
 def fetch_ticker_data(session, ticker, max_retries=3):
-    """
-    Ambil data 1 menit dari API Yahoo Finance menggunakan curl_cffi.
-    Endpoint: chart/v8
-    """
+    """Ambil data 1 menit dari API Yahoo Finance menggunakan curl_cffi."""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1m&range=1d"
     headers = {
         "Accept": "application/json, text/plain, */*",
@@ -98,11 +93,9 @@ def fetch_ticker_data(session, ticker, max_retries=3):
             timestamps = result[0]['timestamp']
             indicators = result[0]['indicators']['quote'][0]
             
-            # Cek apakah data kosong
             if not timestamps or not indicators.get('open'):
                 return None
             
-            # Buat DataFrame
             df = pd.DataFrame({
                 'waktu': pd.to_datetime(timestamps, unit='s'),
                 'open': indicators['open'],
@@ -112,12 +105,10 @@ def fetch_ticker_data(session, ticker, max_retries=3):
                 'volume': indicators['volume']
             })
             
-            # Hapus baris NaN
             df.dropna(inplace=True)
             if df.empty:
                 return None
             
-            # Tambahkan kode emiten
             df['emiten_code'] = ticker
             return df
             
@@ -128,25 +119,56 @@ def fetch_ticker_data(session, ticker, max_retries=3):
     
     return None
 
-def main():
-    # 1. Baca master emiten
+def load_tickers_from_master():
+    """Membaca master_emiten.csv dan mengembalikan list ticker (dengan .JK)."""
     if not os.path.exists(MASTER_CSV):
-        logger.error(f"❌ {MASTER_CSV} tidak ditemukan. Jalankan tarik_emiten dulu.")
+        logger.error(f"❌ File {MASTER_CSV} tidak ditemukan. Jalankan workflow 'Tarik & Sinkronisasi Master Emiten' terlebih dahulu.")
+        return None
+    
+    df = pd.read_csv(MASTER_CSV)
+    
+    # Cek apakah kolom 'Kode' ada
+    if 'Kode' not in df.columns:
+        # Coba case-insensitive
+        possible_cols = [col for col in df.columns if col.lower() == 'kode']
+        if possible_cols:
+            col_name = possible_cols[0]
+            logger.info(f"Kolom 'Kode' tidak ditemukan, menggunakan '{col_name}' sebagai pengganti.")
+        else:
+            # Fallback: ambil kolom pertama yang berisi string dengan '.JK'
+            for col in df.columns:
+                if df[col].dtype == 'object' and df[col].astype(str).str.contains('\.JK').any():
+                    col_name = col
+                    logger.info(f"Kolom 'Kode' tidak ditemukan, menggunakan kolom '{col_name}' yang berisi ticker.")
+                    break
+            else:
+                logger.error(f"❌ Tidak dapat menemukan kolom yang berisi kode saham. Kolom yang tersedia: {list(df.columns)}")
+                return None
+    
+    # Ambil ticker, bersihkan whitespace
+    tickers = df[col_name].astype(str).str.strip().tolist()
+    # Filter yang kosong atau tidak berakhiran .JK (tambahkan jika perlu)
+    tickers = [t for t in tickers if t and t.endswith('.JK')]
+    
+    logger.info(f"✅ Berhasil memuat {len(tickers)} ticker dari master.")
+    return tickers
+
+def main():
+    # 1. Muat ticker
+    tickers = load_tickers_from_master()
+    if not tickers:
+        logger.error("Tidak ada ticker yang bisa diproses. Keluar.")
         return
     
-    df_master = pd.read_csv(MASTER_CSV)
-    tickers = df_master['Kode'].tolist()
-    logger.info(f"📊 Total emiten: {len(tickers)}")
-    
-    # 2. Buat session dan lakukan dummy visit (ini yang membuat kita tembus Cloudflare!)
+    # 2. Buat session dan lakukan dummy visit
     session = create_session()
     dummy_visit(session)
     
-    # 3. Shuffle urutan emiten
+    # 3. Shuffle
     random.shuffle(tickers)
     logger.info("🔀 Urutan emiten diacak.")
     
-    # 4. Batch ukuran 25
+    # 4. Batch
     BATCH_SIZE = 25
     batches = [tickers[i:i+BATCH_SIZE] for i in range(0, len(tickers), BATCH_SIZE)]
     logger.info(f"📦 Total batch: {len(batches)} (masing-masing {BATCH_SIZE} emiten)")
@@ -156,7 +178,6 @@ def main():
     for batch_idx, batch in enumerate(batches):
         logger.info(f"🔄 Memproses batch {batch_idx+1}/{len(batches)}")
         
-        # Proses setiap ticker dalam batch
         for ticker in batch:
             df = fetch_ticker_data(session, ticker)
             if df is not None:
@@ -165,22 +186,18 @@ def main():
             else:
                 logger.info(f"⏭️ {ticker} dilewati (data kosong/suspended)")
             
-            # Jeda kecil antar ticker (0.5 - 1.5 detik) agar tidak terlalu cepat
             time.sleep(random.uniform(0.5, 1.5))
         
-        # Jeda antar batch: 3 - 6 detik (lebih slow untuk aman)
         if batch_idx < len(batches) - 1:
             sleep_batch = random.uniform(3.0, 6.0)
             logger.info(f"⏳ Jeda antar batch {sleep_batch:.1f}s")
             time.sleep(sleep_batch)
         
-        # Coffee break setiap 5 batch (8-15 detik)
         if (batch_idx + 1) % 5 == 0:
             coffee = random.uniform(8.0, 15.0)
             logger.info(f"☕ Coffee break! Istirahat {coffee:.1f}s")
             time.sleep(coffee)
     
-    # 5. Gabungkan semua data
     if not all_dfs:
         logger.warning("⚠️ Tidak ada data yang berhasil diambil hari ini.")
         return
@@ -188,7 +205,6 @@ def main():
     final_df = pd.concat(all_dfs, ignore_index=True)
     final_df.sort_values(['waktu', 'emiten_code'], inplace=True)
     
-    # 6. Simpan ke Parquet
     today_str = datetime.now().strftime("%Y-%m-%d")
     out_file = DATA_DIR_YEAR / f"harga_{today_str}.parquet"
     final_df.to_parquet(out_file, index=False, compression='snappy')

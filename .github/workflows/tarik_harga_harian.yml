@@ -2,8 +2,8 @@ name: Tarik Harga Harian Per Menit
 
 on:
   schedule:
-    - cron: '30 09 * * 1-5'   # UTC 09:30 = WIB 16:30, Senin-Jumat
-  workflow_dispatch:          # opsional untuk uji coba manual
+    - cron: '30 09 * * 1-5'   # UTC 09:30 = WIB 16:30
+  workflow_dispatch:
 
 jobs:
   collect-data:
@@ -18,6 +18,13 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Cek master_emiten.csv, buat jika tidak ada
+        run: |
+          if [ ! -f "data_saham/master_emiten.csv" ]; then
+            echo "⚠️ master_emiten.csv tidak ditemukan, jalankan tarik_emiten..."
+            python core/tarik_emiten.py
+          fi
 
       - name: Jalankan script tarik_harga_harian
         run: python core/tarik_harga_harian.py
