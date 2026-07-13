@@ -107,32 +107,32 @@ def load_tickers_from_master():
         logger.error(f"❌ File {MASTER_CSV} tidak ditemukan. Jalankan workflow 'Tarik & Sinkronisasi Master Emiten' terlebih dahulu.")
         return None
 
-    df = pd.read_csv(MASTER_CSV)
-    col_name = None
-
-    # Cari kolom yang berisi kode saham
-    if 'Kode' in df.columns:
-        col_name = 'Kode'
-    else:
-        # Coba case-insensitive
-        possible = [col for col in df.columns if col.lower() == 'kode']
-        if possible:
-            col_name = possible[0]
-        else:
-            # Cari kolom yang mengandung '.JK'
-            for col in df.columns:
-                if df[col].dtype == 'object' and df[col].astype(str).str.contains('\.JK').any():
-                    col_name = col
-                    break
-
-    if col_name is None:
-        logger.error(f"❌ Tidak dapat menemukan kolom kode saham. Kolom yang tersedia: {list(df.columns)}")
+    try:
+        # Menggunakan utf-8-sig untuk membersihkan karakter \ufeff (BOM) tersembunyi di awal file
+        df = pd.read_csv(MASTER_CSV, encoding='utf-8-sig')
+    except Exception as e:
+        logger.error(f"❌ Gagal membaca file CSV: {e}")
         return None
 
-    tickers = df[col_name].astype(str).str.strip().tolist()
-    tickers = [t for t in tickers if t and t.endswith('.JK')]
+    # Bersihkan spasi di awal/akhir nama kolom untuk berjaga-jaga
+    df.columns = df.columns.str.strip()
+    
+    # Cari kolom 'Kode' secara case-insensitive
+    col_name = next((col for col in df.columns if col.lower() == 'kode'), None)
+
+    if col_name is None:
+        logger.error(f"❌ Tidak dapat menemukan kolom 'Kode'. Kolom yang terdeteksi: {list(df.columns)}")
+        return None
+
+    # Mengambil list emiten
+    raw_tickers = df[col_name].astype(str).str.strip().tolist()
+    
+    # Bersihkan data kosong dan pastikan berakhiran .JK sesuai format file Anda
+    tickers = [t for t in raw_tickers if t and t != 'nan' and t.upper().endswith('.JK')]
+    
     logger.info(f"✅ Memuat {len(tickers)} ticker dari kolom '{col_name}'.")
     return tickers
+
 
 def main():
     tickers = load_tickers_from_master()
