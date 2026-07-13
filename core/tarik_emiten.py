@@ -1,91 +1,59 @@
-import os
-import pandas as pd
-from datetime import datetime
+"""
+Script untuk membaca daftar saham BEI (Excel) dan menghasilkan master_emiten.csv
+dengan format standar (kode + .JK, nama, tanggal pencatatan ISO, jumlah saham integer).
+"""
 
-def proses_excel_bei():
-    print("=== Memulai Pembersihan Data Excel BEI ===")
-    
-    folder_data = "data_saham"
-    file_excel_bei = f"{folder_data}/daftar_saham_bei.xlsx"
-    file_csv_output = f"{folder_data}/master_emiten.csv"
-    
-    # 1. Pastikan file Excel BEI sudah kamu upload ke folder data_saham/
-    if not os.path.exists(file_excel_bei):
-        print(f"Error: File '{file_excel_bei}' belum diupload!")
+import pandas as pd
+import os
+import re
+from pathlib import Path
+
+EXCEL_PATH = "data_saham/daftar_saham_bei.xlsx"
+OUTPUT_CSV = "data_saham/master_emiten.csv"
+
+def clean_number(s):
+    """Hilangkan titik ribuan, ubah ke integer."""
+    if isinstance(s, (int, float)):
+        return int(s)
+    s = str(s).strip()
+    # hilangkan semua karakter non-digit
+    s = re.sub(r'[^\d]', '', s)
+    return int(s) if s else 0
+
+def main():
+    if not os.path.exists(EXCEL_PATH):
+        print(f"File {EXCEL_PATH} tidak ditemukan. Jalankan secara manual dengan mengunduh dari BEI.")
         return
 
-    try:
-        # 2. Baca file Excel
-        df_bei = pd.read_excel(file_excel_bei, engine='openpyxl')
-        
-        # Mapping nama kolom asli dari BEI sesuai info kamu
-        KOLOM_KODE = 'Kode'
-        KOLOM_NAMA = 'Nama Perusahaan'
-        KOLOM_TGL = 'Tanggal Pencatatan'
-        KOLOM_SAHAM = 'Saham'
-        KOLOM_PAPAN = 'Papan Pencatatan'
-        
-        # Validasi apakah kolom-kolom tersebut benar-benar ada di Excel
-        kolom_wajib = [KOLOM_KODE, KOLOM_NAMA, KOLOM_TGL, KOLOM_SAHAM, KOLOM_PAPAN]
-        for kol in kolom_wajib:
-            if kol not in df_bei.columns:
-                print(f"Error: Kolom '{kol}' tidak ditemukan di file Excel BEI!")
-                print(f"Kolom yang ada saat ini: {df_bei.columns.tolist()}")
-                return
+    # Baca Excel, ambil sheet pertama
+    df = pd.read_excel(EXCEL_PATH, dtype=str)
+    # Kolom yang diharapkan: No, Kode, Nama Perusahaan, Tanggal Pencatatan, Saham, Papan Pencatatan
+    # Sesuaikan jika nama kolom berbeda
+    required_cols = ['Kode', 'Nama Perusahaan', 'Tanggal Pencatatan', 'Saham', 'Papan Pencatatan']
+    for col in required_cols:
+        if col not in df.columns:
+            raise ValueError(f"Kolom '{col}' tidak ditemukan di Excel. Periksa format file.")
 
-        data_bersih = []
-        waktu_sekarang = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Filter kode saham yang valid (hanya 4 huruf alfabet)
+    df = df[df['Kode'].astype(str).str.match(r'^[A-Za-z]{4}$')].copy()
 
-        # 3. Looping untuk membersihkan data per baris
-        for index, row in df_bei.iterrows():
-            kode_mentah = str(row[KOLOM_KODE]).strip()
-            
-            # Filter: Hanya ambil kode saham yang valid (4 karakter huruf, cth: BBRI)
-            if not kode_mentah or len(kode_mentah) != 4 or not kode_mentah.isalpha():
-                continue
-            
-            # Transformasi format ke Yahoo Finance (.JK)
-            ticker_yf = f"{kode_mentah.upper()}.JK"
-            nama = str(row[KOLOM_NAMA]).strip()
-            papan = str(row[KOLOM_PAPAN]).strip()
-            
-            # Transformasi Tanggal Pencatatan menjadi YYYY-MM-DD standar database
-            tgl_mentah = row[KOLOM_TGL]
-            try:
-                # Jika formatnya sudah datetime dari Excel
-                tgl_formatted = pd.to_datetime(tgl_mentah).strftime("%Y-%m-%d")
-            except:
-                tgl_formatted = "N/A"
-                
-            # Transformasi Jumlah Saham Beredar menjadi angka murni (integer)
-            try:
-                saham_int = int(row[KOLOM_SAHAM])
-            except:
-                saham_int = 0
+    # Transformasi
+    df['Kode'] = df['Kode'].str.upper() + '.JK'
+    df['Nama Perusahaan'] = df['Nama Perusahaan'].str.strip()
+    # Konversi tanggal ke ISO
+    df['Tanggal Pencatatan'] = pd.to_datetime(df['Tanggal Pencatatan'], errors='coerce').dt.strftime('%Y-%m-%d')
+    # Jumlah saham bersih
+    df['Saham'] = df['Saham'].apply(clean_number)
 
-            # Masukkan ke dictionary struktur baru
-            data_bersih.append({
-                "ticker": ticker_yf,
-                "nama_perusahaan": nama,
-                "tanggal_pencatatan": tgl_formatted,
-                "saham_beredar": saham_int,
-                "papan_pencatatan": papan,
-                "status_perusahaan": "Active",
-                "updated_at": waktu_sekarang
-            })
-            
-        # 4. Simpan hasil pembersihan ke CSV
-        df_hasil = pd.DataFrame(data_bersih)
-        df_hasil.to_csv(file_csv_output, index=False)
-        
-        print(f"\n=== SUKSES! ===")
-        print(f"Berhasil merapikan {len(df_hasil)} emiten dari BEI.")
-        print(f"File disimpan di: {file_csv_output}")
-        print("\nContoh hasil data yang nyaman:")
-        print(df_hasil.head(3).to_string())
+    # Ambil kolom yang diperlukan
+    df_out = df[['Kode', 'Nama Perusahaan', 'Tanggal Pencatatan', 'Saham', 'Papan Pencatatan']]
+    # Urutkan berdasarkan kode
+    df_out = df_out.sort_values('Kode').reset_index(drop=True)
 
-    except Exception as e:
-        print(f"Terjadi error saat memproses data: {str(e)}")
+    # Simpan
+    os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
+    df_out.to_csv(OUTPUT_CSV, index=False, encoding='utf-8')
+    print(f"✅ Master emiten berhasil disimpan ke {OUTPUT_CSV} dengan {len(df_out)} emiten.")
 
 if __name__ == "__main__":
-    proses_excel_bei()
+    main()

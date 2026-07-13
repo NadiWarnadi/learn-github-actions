@@ -1,0 +1,31 @@
+name: Tarik Harga Harian Per Menit
+
+on:
+  schedule:
+    - cron: '30 09 * * 1-5'   # UTC 09:30 = WIB 16:30, Senin-Jumat
+  workflow_dispatch:          # opsional untuk uji coba manual
+
+jobs:
+  collect-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Jalankan script tarik_harga_harian
+        run: python core/tarik_harga_harian.py
+
+      - name: Commit & push file Parquet baru
+        run: |
+          git config user.name "NadiWarnadi"
+          git config user.email "warnadi2006@gmail.com"
+          git add data_saham/tahun=*/harga_*.parquet
+          git diff --cached --quiet || git commit -m "Update harga harian $(date +'%Y-%m-%d')"
+          git push
