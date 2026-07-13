@@ -1,0 +1,40 @@
+name: Tarik-Emiten
+
+on:
+  workflow_dispatch: # Hanya berjalan kalau kamu klik tombol "Run Workflow" di Github
+
+jobs:
+  proses-master-emiten:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Ambil source code repo
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    # 2. Setup Python
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    # 3. Install library yang dibutuhkan (pandas dan openpyxl untuk baca Excel)
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas openpyxl
+
+    # 4. Jalankan script pembersihan data
+    - name: Jalankan Pembersih Excel BEI
+      run: python core/tarik_emiten.py
+
+    # 5. Simpan file master_emiten.csv yang sudah bersih kembali ke GitHub
+    - name: Commit dan Push Perubahan
+      run: |
+        git config --global user.name "NadiWarnadi"
+        git config --global user.email "warnadi2006@gmail.com"
+        git add data_saham/master_emiten.csv
+        
+        # Hanya commit jika ada perubahan pada file csv nya
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Automated: Sinkronisasi master emiten csv" && git push)

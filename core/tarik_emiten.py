@@ -1,129 +1,91 @@
 import os
-import time
-import random
 import pandas as pd
-import yfinance as yf
-from datetime import datetime, timedelta
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util import Retry
+from datetime import datetime
 
-# Daftar User-Agent untuk rotasi agar tidak dicurigai sebagai bot kaku
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0"
-]
+def proses_excel_bei():
+    print("=== Memulai Pembersihan Data Excel BEI ===")
+    
+    folder_data = "data_saham"
+    file_excel_bei = f"{folder_data}/daftar_saham_bei.xlsx"
+    file_csv_output = f"{folder_data}/master_emiten.csv"
+    
+    # 1. Pastikan file Excel BEI sudah kamu upload ke folder data_saham/
+    if not os.path.exists(file_excel_bei):
+        print(f"Error: File '{file_excel_bei}' belum diupload!")
+        return
 
-def buat_sesi_aman():
-    """Membuat session HTTP dengan fitur auto-retry dan backoff yang kuat"""
-    session = requests.Session()
-    
-    # Konfigurasi Retry jika terkena error 429 (Too Many Requests) atau 500/502/503/504
-    retries = Retry(
-        total=5,                  # Coba ulang maksimal 5 kali
-        backoff_factor=3,         # Jeda meningkat: 3 detik, 6 detik, 12 detik...
-        status_forcelist=[429, 500, 502, 503, 504],
-        raise_on_status=False
-    )
-    
-    adapter = HTTPAdapter(max_retries=retries)
-    session.mount("https://", adapter)
-    session.mount("http://", adapter)
-    return session
-
-def sinkronisasi_master_emiten():
-    print("=== Memulai Sinkronisasi Master Emiten Cerdas ===")
-    
-    folder_output = "data_saham"
-    path_file = f"{folder_output}/master_emiten.csv"
-    
-    if not os.path.exists(folder_output):
-        os.makedirs(folder_output)
-
-    # 1. Load data lama untuk fungsi Smart Cache
-    dict_cache_lama = {}
-    if os.path.exists(path_file):
-        try:
-            df_lama = pd.read_csv(path_file)
-            # Buat mapping ticker -> tanggal update terakhir
-            dict_cache_lama = pd.Series(df_lama.updated_at.values, index=df_lama.ticker).to_dict()
-            print(f"Berhasil memuat cache lama. Menemukan {len(dict_cache_lama)} data terdaftar.")
-        except Exception as e:
-            print(f"Gagal membaca cache lama (mungkin file korup/kosong): {e}")
-
-    # 2. Daftar 900+ emiten kamu (Contoh pemicu, silakan ganti dengan list lengkapmu)
-    list_target_emiten = ["BBRI", "TLKM", "ASII", "BBCA", "BMRI", "GOTO", "UNVR", "BUKA"] 
-    
-    session = buat_sesi_aman()
-    data_terupdate = []
-    
-    batasan_hari_cache = 30 # Data profil perusahaan dianggap valid jika diupdate dalam 30 hari terakhir
-    Hari_ini = datetime.now()
-
-    for kode in list_target_emiten:
-        ticker_id = f"{kode}.JK"
+    try:
+        # 2. Baca file Excel
+        df_bei = pd.read_excel(file_excel_bei, engine='openpyxl')
         
-        # --- FITUR SMART CACHE (HEMAT KUOTA) ---
-        if ticker_id in dict_cache_lama:
-            try:
-                tgl_update_terakhir = datetime.strptime(str(dict_cache_lama[ticker_id]), "%Y-%m-%d %H:%M:%S")
-                # Jika data belum kadaluarsa (masih di bawah 30 hari), SKIP request ke internet
-                if hari_ini - tgl_update_terakhir < timedelta(days=batasan_hari_cache):
-                    print(f" Skip {ticker_id}: Data masih segar (Diperbarui {dict_cache_lama[ticker_id]})")
-                    continue
-            except ValueError:
-                pass # Jika format tanggal rusak, abaikan cache dan tarik ulang
+        # Mapping nama kolom asli dari BEI sesuai info kamu
+        KOLOM_KODE = 'Kode'
+        KOLOM_NAMA = 'Nama Perusahaan'
+        KOLOM_TGL = 'Tanggal Pencatatan'
+        KOLOM_SAHAM = 'Saham'
+        KOLOM_PAPAN = 'Papan Pencatatan'
         
-        # --- PROSES REQUEST AMAN & DINAMIS ---
-        print(f" Memproses {ticker_id} dari server Yahoo...")
-        
-        # Ubah Header Session secara dinamis sebelum menembak API
-        session.headers.update({"User-Agent": random.choice(USER_AGENTS)})
-        
-        try:
-            ticker = yf.Ticker(ticker_id, session=session)
-            info = ticker.info
+        # Validasi apakah kolom-kolom tersebut benar-benar ada di Excel
+        kolom_wajib = [KOLOM_KODE, KOLOM_NAMA, KOLOM_TGL, KOLOM_SAHAM, KOLOM_PAPAN]
+        for kol in kolom_wajib:
+            if kol not in df_bei.columns:
+                print(f"Error: Kolom '{kol}' tidak ditemukan di file Excel BEI!")
+                print(f"Kolom yang ada saat ini: {df_bei.columns.tolist()}")
+                return
+
+        data_bersih = []
+        waktu_sekarang = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        # 3. Looping untuk membersihkan data per baris
+        for index, row in df_bei.iterrows():
+            kode_mentah = str(row[KOLOM_KODE]).strip()
             
-            if not info or info.get("regularMarketPrice") is None:
-                # Jika tidak ada harga, mungkin emiten disuspensi atau salah kode
-                status = "Suspended/Inactive"
-            else:
-                status = "Active"
+            # Filter: Hanya ambil kode saham yang valid (4 karakter huruf, cth: BBRI)
+            if not kode_mentah or len(kode_mentah) != 4 or not kode_mentah.isalpha():
+                continue
+            
+            # Transformasi format ke Yahoo Finance (.JK)
+            ticker_yf = f"{kode_mentah.upper()}.JK"
+            nama = str(row[KOLOM_NAMA]).strip()
+            papan = str(row[KOLOM_PAPAN]).strip()
+            
+            # Transformasi Tanggal Pencatatan menjadi YYYY-MM-DD standar database
+            tgl_mentah = row[KOLOM_TGL]
+            try:
+                # Jika formatnya sudah datetime dari Excel
+                tgl_formatted = pd.to_datetime(tgl_mentah).strftime("%Y-%m-%d")
+            except:
+                tgl_formatted = "N/A"
+                
+            # Transformasi Jumlah Saham Beredar menjadi angka murni (integer)
+            try:
+                saham_int = int(row[KOLOM_SAHAM])
+            except:
+                saham_int = 0
 
-            data_terupdate.append({
-                "ticker": ticker_id,
-                "nama_perusahaan": info.get("longName", "N/A"),
-                "sektor": info.get("sector", "N/A"),
-                "industri": info.get("industry", "N/A"),
-                "status_perusahaan": status,
-                "updated_at": hari_ini.strftime("%Y-%m-%d %H:%M:%S")
+            # Masukkan ke dictionary struktur baru
+            data_bersih.append({
+                "ticker": ticker_yf,
+                "nama_perusahaan": nama,
+                "tanggal_pencatatan": tgl_formatted,
+                "saham_beredar": saham_int,
+                "papan_pencatatan": papan,
+                "status_perusahaan": "Active",
+                "updated_at": waktu_sekarang
             })
             
-            # --- JEDA DINAMIS (ANTI BOT) ---
-            # Beri jeda acak antara 1.5 sampai 3.5 detik per request agar polanya natural
-            jeda = random.uniform(1.5, 3.5)
-            time.sleep(jeda)
-            
-        except Exception as e:
-            print(f" Gagal memproses {ticker_id}: {str(e)}")
-            time.sleep(5) # Jeda lebih lama jika terjadi error agar server reda
-            
-    # 3. Gabungkan Data Hasil Tarikan Baru dengan Data Lama di Cache
-    if data_terupdate:
-        df_baru = pd.DataFrame(data_terupdate)
-        if os.path.exists(path_file):
-            df_lama = pd.read_csv(path_file)
-            # Tumpuk data baru di atas data lama, hapus duplikat ticker, pertahankan yang paling baru
-            df_final = pd.concat([df_baru, df_lama]).drop_duplicates(subset=["ticker"], keep="first")
-        else:
-            df_final = df_baru
-            
-        df_final.to_csv(path_file, index=False)
-        print(f"=== Selesai! Master emiten diperbarui. Total data di file: {len(df_final)} ===")
-    else:
-        print("=== Selesai! Tidak ada data baru yang perlu ditarik hari ini (Semua cache valid). ===")
+        # 4. Simpan hasil pembersihan ke CSV
+        df_hasil = pd.DataFrame(data_bersih)
+        df_hasil.to_csv(file_csv_output, index=False)
+        
+        print(f"\n=== SUKSES! ===")
+        print(f"Berhasil merapikan {len(df_hasil)} emiten dari BEI.")
+        print(f"File disimpan di: {file_csv_output}")
+        print("\nContoh hasil data yang nyaman:")
+        print(df_hasil.head(3).to_string())
+
+    except Exception as e:
+        print(f"Terjadi error saat memproses data: {str(e)}")
 
 if __name__ == "__main__":
-    sinkronisasi_master_emiten()
+    proses_excel_bei()
