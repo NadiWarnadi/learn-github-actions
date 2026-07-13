@@ -1,0 +1,45 @@
+name: Update Daftar Saham Per Kuartal
+
+on:
+  schedule:
+    # Berjalan setiap tanggal 1 di bulan Januari, April, Juli, dan Oktober (Jam 00:00 UTC)
+    - cron: '0 0 1 1,4,7,10 *'
+  workflow_dispatch: # Tombol manual jika Anda ingin update kapan saja
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout private repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/python-version: '3.10'
+
+    - name: Install Dependencies
+      run: pip install pandas lxml
+
+    - name: Jalankan Script Update Daftar Saham
+      run: |
+        python -c "
+        import pandas as pd
+        url = 'https://id.wikipedia.org/wiki/Daftar_perusahaan_yang_terdaftar_di_Bursa_Efek_Indonesia'
+        tables = pd.read_html(url)
+        ticker_list = []
+        for table in tables:
+            if 'Kode' in table.columns:
+                tickers = table['Kode'].astype(str).str.strip() + '.JK'
+                ticker_list.extend(tickers.tolist())
+        ticker_list = sorted(list(set([t for t in ticker_list if len(t) == 7])))
+        with open('daftar_saham.txt', 'w') as f:
+            f.write('\n'.join(ticker_list))
+        print('Daftar saham berhasil diperbarui!')
+        "
+
+    - name: Commit dan Push Daftar Terbaru
+      run: |
+        git config --global user.name 'Data Bot'
+        git config --global user.email 'bot@github.com'
+        git add daftar_saham.txt
+        git commit -m "Automated update daftar saham per kuartal" || exit 0
+        git push
