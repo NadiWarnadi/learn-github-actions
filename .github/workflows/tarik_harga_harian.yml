@@ -1,8 +1,8 @@
 name: Tarik Harga Harian Per Menit
 
 on:
-  schedule:
-    - cron: '30 09 * * 1-5'   # UTC 09:30 = WIB 16:30
+# schedule:
+#    - cron: '30 09 * * 1-5'   # UTC 09:30 = WIB 16:30
   workflow_dispatch:
 
 jobs:
